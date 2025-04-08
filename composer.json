@@ -1,0 +1,25 @@
+{
+    "name": "grafiaware/ponnath",
+    "description": "web ponnath",
+    "license": "MIT",
+    "keywords": ["grafia web ponnath"],
+    "authors": [
+        {
+            "name": "Petr Svoboda",
+            "email": "svoboda@grafia.cz"
+        }
+    ],
+    "version": "0.1",
+    "require": {
+        "pes/pes": "@dev",
+        "phpmailer/phpmailer": "^6.2",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Site\\": "app/Site",
+            "Test\\": "tests",
+            "" : "src"
+        }
+    }
+}
