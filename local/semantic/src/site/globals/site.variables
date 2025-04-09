@@ -1,0 +1,50 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@fontName: "Myriad Pro, sans-serif";
+@googleFontName: @fontName;
+
+@importGoogleFonts : false;
+@headerFont: "PierceJamesonSans";  
+@pageFont: @fontName, @fallbackFonts;
+
+
+/* -------------------
+    Brand Colors
+-------------------- */
+
+@primaryColor: #a50028;
+@secondaryColor: @black;
+
+@lightPrimaryColor: lighten(@primaryColor, 10);
+@lightSecondaryColor: @lightBlack;
+
+/* -------------------
+      Base Sizes 
+-------------------- */
+
+/* This is the single variable that controls them all */
+@emSize: 20px;
+
+/* The size of page text */
+@fontSize: 20px;
+
+/* -------------------
+        Page
+-------------------- */
+
+@pageBackground: #fff;
+@pageOverflowX: hidden;
+
+@lineHeight: 1.4285em;
+@textColor: #666;
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor: #2b2b2b;
+@linkUnderline: underline;
+@linkHoverColor: if(iscolor(@linkColor), darken(saturate(@linkColor, 20), 15, relative), @linkColor);
+@linkHoverUnderline: @linkUnderline;
