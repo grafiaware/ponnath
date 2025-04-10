@@ -1,6 +1,18 @@
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Other/javascript.js to edit this template
- */
+window.addEventListener('DOMContentLoaded', () => {
+const openBtn = document.getElementById('open-menu');
+const closeBtn = document.getElementById('close-menu');
+const menu = document.getElementById('menu');
 
+    openBtn.addEventListener('click', () => {
+      menu.style.display = 'block';
+      openBtn.style.display = 'none';
+      closeBtn.style.display = 'block';
+  });
 
+    closeBtn.addEventListener('click', () => {
+      menu.style.display = 'none';
+      closeBtn.style.display = 'none';
+      openBtn.style.display = 'block';
+  });
+
+})

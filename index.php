@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
+<?php
          include "local/templates/layout.php"; 
-        ?>
-    </body>
-</html>
+?>
+

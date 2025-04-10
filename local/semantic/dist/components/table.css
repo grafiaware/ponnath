@@ -164,7 +164,7 @@
 }
 
 /* Responsive */
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 744.98px) {
   .ui.table:not(.unstackable) {
     width: 100%;
     padding: 0;
@@ -456,7 +456,7 @@
 /* --------------
       Scrolling
     --------------- */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 745px) {
   .ui.scrolling.table.short > tbody {
     max-height: 9.0855em;
   }
@@ -488,7 +488,7 @@
     height: 36.342em;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1005px) {
   .ui.scrolling.table.short > tbody {
     max-height: 13.62825em;
   }
@@ -669,7 +669,7 @@
   -ms-scroll-chaining: none;
       overscroll-behavior: none;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 745px) {
   .ui.overflowing.table.short {
     max-height: 13.62825em;
   }
@@ -686,7 +686,7 @@
     max-height: 54.513em;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1005px) {
   .ui.overflowing.table.short {
     max-height: 18.171em;
   }
@@ -924,7 +924,7 @@
 /* --------------
         Stackable
     --------------- */
-@media only screen and (max-width: 991.98px) {
+@media only screen and (max-width: 1004.98px) {
   .ui[class*="tablet stackable"].table,
   .ui[class*="tablet stackable"].table > thead,
   .ui[class*="tablet stackable"].table > thead > tr,

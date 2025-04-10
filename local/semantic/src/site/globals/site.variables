@@ -40,6 +40,8 @@
 @lineHeight: 1.4285em;
 @textColor: #666;
 
+@headerTopMargin: 2.4rem;
+
 /*-------------------
        Links
 --------------------*/
@@ -48,3 +50,13 @@
 @linkUnderline: underline;
 @linkHoverColor: if(iscolor(@linkColor), darken(saturate(@linkColor, 20), 15, relative), @linkColor);
 @linkHoverUnderline: @linkUnderline;
+
+/* -------------------
+     Breakpoints
+-------------------- */
+
+@mobileBreakpoint: 320px;
+@tabletBreakpoint: 745px;
+@computerBreakpoint: 1005px;
+@largeMonitorBreakpoint: 1347px;
+@widescreenMonitorBreakpoint: 1920px;

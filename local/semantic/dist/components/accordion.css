@@ -28,7 +28,7 @@
 .ui.accordion .accordion > .title {
   cursor: pointer;
   padding: 0.5em 0;
-  font-family: "PierceJamesonSans";
+  font-family: "Myriad Pro, sans-serif", system-ui, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1em;
   color: #666;
   list-style: none;

@@ -356,14 +356,14 @@
 /* --------------
     Container
 --------------- */
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 744.98px) {
   .ui.menu > .ui.container {
     width: 100% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 745px) {
   .ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless) > .container > .item:not(.right):not(.borderless):first-child {
     border-left: 1px solid rgba(34, 36, 38, 0.1);
   }
@@ -1209,7 +1209,7 @@ Floated Menu / Item
 /* --------------
         Stackable
     --------------- */
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 744.98px) {
   .ui.stackable.menu {
     flex-direction: column;
   }
@@ -1886,7 +1886,7 @@ Floated Menu / Item
 .ui.vertical.pointing.menu .menu .active.item::after {
   background-color: #fff;
 }
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 744.98px) {
   .ui.stackable.grid .ui.fluid.vertical.pointing.menu .active.item::after {
     display: none;
   }
