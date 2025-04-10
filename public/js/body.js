@@ -1,0 +1,2 @@
+$('.ui.tree.accordion').accordion(); 
+
