@@ -113,7 +113,7 @@
   font-size: 1em;
   background: #fff;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: #666;
+  color: #1b1c1d;
   border-radius: 0.2rem;
   box-shadow: 0 0 0 0 transparent inset;
   transition: color 0.1s ease, border-color 0.1s ease;
@@ -139,7 +139,7 @@
   background: #fff;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
-  color: #666;
+  color: #1b1c1d;
   border-radius: 0.2rem;
   box-shadow: 0 0 0 0 transparent inset;
   transition: color 0.1s ease, border-color 0.1s ease;
@@ -222,7 +222,7 @@
   border-radius: 0.2rem;
   box-shadow: 0 0 0 0 transparent inset;
   padding: 0.62em 0.7em;
-  color: #666;
+  color: #1b1c1d;
   transition: color 0.1s ease, border-color 0.1s ease;
 }
 
@@ -367,28 +367,28 @@
 
 /* browsers require these rules separate */
 .ui.form :-ms-input-placeholder {
-  color: #ffffff;
+  color: #dadbdd;
 }
 .ui.form ::-ms-input-placeholder {
-  color: #ffffff;
+  color: #dadbdd;
 }
 .ui.form ::placeholder {
-  color: #ffffff;
+  color: #dadbdd;
 }
 .ui.form :-ms-input-placeholder {
-  color: #ffffff !important;
+  color: #dadbdd !important;
 }
 .ui.form :focus:-ms-input-placeholder {
-  color: #d9d9d9;
+  color: #8b8f93;
 }
 .ui.form :focus::-ms-input-placeholder {
-  color: #d9d9d9;
+  color: #8b8f93;
 }
 .ui.form :focus::placeholder {
-  color: #d9d9d9;
+  color: #8b8f93;
 }
 .ui.form :focus:-ms-input-placeholder {
-  color: #d9d9d9 !important;
+  color: #8b8f93 !important;
 }
 
 /* --------------------
@@ -1585,7 +1585,7 @@
 .ui.inverted.form input[type="week"] {
   background: #fff;
   border-color: rgba(255, 255, 255, 0.1);
-  color: #666;
+  color: #1b1c1d;
   box-shadow: none;
 }
 
@@ -1883,3 +1883,12 @@
          Site Overrides
 *******************************/
 
+.ui.form :-ms-input-placeholder {
+  color: #b3b3b3;
+}
+.ui.form ::-ms-input-placeholder {
+  color: #b3b3b3;
+}
+.ui.form ::placeholder {
+  color: #b3b3b3;
+}

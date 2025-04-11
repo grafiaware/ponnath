@@ -8,6 +8,20 @@
 *******************************/
 @import (optional) "../semantic/src/site/globals/site.variables";   
 
+@font-face {
+    font-family: 'PierceJamesonSans';
+    src:url('font/Pierce Jameson Sans.eot'); 
+    src:url('font/Pierce Jameson Sans.eot?#') format('eot'),    
+        url('font/Pierce Jameson Sans.woff') format('woff');
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "PierceJamesonSans" !important;
+}
+
 header{
     img{
         max-height: 822px;
@@ -114,6 +128,24 @@ nav{
       }
     }
 }
+h3 + .gray-box{
+    margin-top: 2rem;
+}
+.gray-box{
+    background-color: lighten(@grey,45);
+    margin: 10px 0;
+    &:not(.image){
+        border-radius: 5px;
+        padding: 0 15px; 
+    }
+    &.image{
+        padding: 0 20px 0 0;
+        border-radius: 0;
+        img{
+            margin: -20px 0;
+        }
+    }
+}
 .o-nas{
     .five.wide{
         img{
@@ -122,4 +154,7 @@ nav{
             object-fit: cover;
         }
     }
+}
+.kariera{
+    
 }

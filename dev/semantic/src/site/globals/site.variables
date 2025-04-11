@@ -51,7 +51,7 @@
 @linkHoverColor: if(iscolor(@linkColor), darken(saturate(@linkColor, 20), 15, relative), @linkColor);
 @linkHoverUnderline: @linkUnderline;
 
-/* -------------------
+/* ------------------- 
      Breakpoints
 -------------------- */
 

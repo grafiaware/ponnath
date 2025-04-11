@@ -18,9 +18,9 @@ $layoutVideo = 'public/video/';
     </head>
     <body class="layout">
         <?php //  include "body/container.php"; ?>
-        <?php include "body/o-nas.php"; ?>
-        <?php //  include "body/kariera.php"; ?>
-        <?php // include "body/nase-produkty.php"; ?>
+        <?php // include "body/o-nas.php"; ?>
+        <?php // include "body/kariera.php"; ?>
+        <?php include "body/nase-produkty.php"; ?>
         <?php // include "body/kontakt.php"; ?>
         <?php include "body/scripts.php"; ?>
     </body>

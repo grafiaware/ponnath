@@ -5,6 +5,4 @@
 @font-face {
     font-family: 'PierceJamesonSans';
     src:url('themes/basic/assets/fonts/PierceJamesonSans.eot'); 
-    src:url('themes/basic/assets/fonts/PierceJamesonSans.eot?#') format('eot'),    
-        url('themes/basic/assets/fonts/PierceJamesonSans.woff') format('woff');
 }*
