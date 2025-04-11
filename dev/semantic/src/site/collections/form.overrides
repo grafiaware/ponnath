@@ -1,0 +1,6 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.form ::placeholder{
+    color: lighten(@textColor, 30);
+}

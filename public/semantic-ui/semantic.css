@@ -445,7 +445,7 @@ template {
 
 @font-face {
   font-family: "Myriad Pro, sans-serif";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/LatoLatin-Regular.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/LatoLatin-Regular.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/LatoLatin-Regular.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/LatoLatin-Regular.woff") format("woff");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -455,7 +455,7 @@ template {
 
 @font-face {
   font-family: "Myriad Pro, sans-serif";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/LatoLatin-Bold.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/LatoLatin-Bold.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/LatoLatin-Bold.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/LatoLatin-Bold.woff") format("woff");
   font-style: normal;
   font-weight: bold;
   font-display: swap;
@@ -465,7 +465,7 @@ template {
 
 @font-face {
   font-family: "Myriad Pro, sans-serif";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/LatoLatin-Italic.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/LatoLatin-Italic.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/LatoLatin-Italic.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/LatoLatin-Italic.woff") format("woff");
   font-style: italic;
   font-weight: normal;
   font-display: swap;
@@ -475,7 +475,7 @@ template {
 
 @font-face {
   font-family: "Myriad Pro, sans-serif";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/LatoLatin-BoldItalic.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/LatoLatin-BoldItalic.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/LatoLatin-BoldItalic.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/LatoLatin-BoldItalic.woff") format("woff");
   font-style: italic;
   font-weight: bold;
   font-display: swap;
@@ -485,7 +485,7 @@ template {
 
 @font-face {
   font-family: "Myriad Pro, sans-serif";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/Lato-Regular.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/Lato-Regular.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/Lato-Regular.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/Lato-Regular.woff") format("woff");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -495,7 +495,7 @@ template {
 
 @font-face {
   font-family: "Myriad Pro, sans-serif";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/Lato-Bold.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/Lato-Bold.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/Lato-Bold.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/Lato-Bold.woff") format("woff");
   font-style: normal;
   font-weight: bold;
   font-display: swap;
@@ -505,7 +505,7 @@ template {
 
 @font-face {
   font-family: "Myriad Pro, sans-serif";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/Lato-Italic.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/Lato-Italic.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/Lato-Italic.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/Lato-Italic.woff") format("woff");
   font-style: italic;
   font-weight: normal;
   font-display: swap;
@@ -515,7 +515,7 @@ template {
 
 @font-face {
   font-family: "Myriad Pro, sans-serif";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/Lato-BoldItalic.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/Lato-BoldItalic.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/Lato-BoldItalic.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/Lato-BoldItalic.woff") format("woff");
   font-style: italic;
   font-weight: bold;
   font-display: swap;
@@ -7087,7 +7087,7 @@ a.ui.inverted.black.header.header.header:hover {
 
 @font-face {
   font-family: "icons";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/icons.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/icons.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/icons.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/icons.woff") format("woff");
   font-style: normal;
   font-weight: normal;
   font-display: block;
@@ -7098,7 +7098,7 @@ a.ui.inverted.black.header.header.header:hover {
 
 @font-face {
   font-family: "outline-icons";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/outline-icons.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/outline-icons.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/outline-icons.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/outline-icons.woff") format("woff");
   font-style: normal;
   font-weight: normal;
   font-display: block;
@@ -7109,7 +7109,7 @@ a.ui.inverted.black.header.header.header:hover {
 
 @font-face {
   font-family: "brand-icons";
-  src: url("./../../local/semantic/dist/themes/default/assets/fonts/brand-icons.woff2") format("woff2") , url("./../../local/semantic/dist/themes/default/assets/fonts/brand-icons.woff") format("woff");
+  src: url("./../../dev/semantic/dist/themes/default/assets/fonts/brand-icons.woff2") format("woff2") , url("./../../dev/semantic/dist/themes/default/assets/fonts/brand-icons.woff") format("woff");
   font-style: normal;
   font-weight: normal;
   font-display: block;
@@ -23304,7 +23304,7 @@ ol.ui.suffixed.list li::before,
   font-size: 1em;
   background: #fff;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: #666;
+  color: #1b1c1d;
   border-radius: 0.2rem;
   box-shadow: 0 0 0 0 transparent inset;
   transition: color 0.1s ease, border-color 0.1s ease;
@@ -23333,7 +23333,7 @@ ol.ui.suffixed.list li::before,
   background: #fff;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
-  color: #666;
+  color: #1b1c1d;
   border-radius: 0.2rem;
   box-shadow: 0 0 0 0 transparent inset;
   transition: color 0.1s ease, border-color 0.1s ease;
@@ -23430,7 +23430,7 @@ ol.ui.suffixed.list li::before,
   border-radius: 0.2rem;
   box-shadow: 0 0 0 0 transparent inset;
   padding: 0.62em 0.7em;
-  color: #666;
+  color: #1b1c1d;
   transition: color 0.1s ease, border-color 0.1s ease;
 }
 
@@ -23593,35 +23593,35 @@ ol.ui.suffixed.list li::before,
 /* browsers require these rules separate */
 
 .ui.form :-ms-input-placeholder {
-  color: #ffffff;
+  color: #dadbdd;
 }
 
 .ui.form ::-ms-input-placeholder {
-  color: #ffffff;
+  color: #dadbdd;
 }
 
 .ui.form ::placeholder {
-  color: #ffffff;
+  color: #dadbdd;
 }
 
 .ui.form :-ms-input-placeholder {
-  color: #ffffff !important;
+  color: #dadbdd !important;
 }
 
 .ui.form :focus:-ms-input-placeholder {
-  color: #d9d9d9;
+  color: #8b8f93;
 }
 
 .ui.form :focus::-ms-input-placeholder {
-  color: #d9d9d9;
+  color: #8b8f93;
 }
 
 .ui.form :focus::placeholder {
-  color: #d9d9d9;
+  color: #8b8f93;
 }
 
 .ui.form :focus:-ms-input-placeholder {
-  color: #d9d9d9 !important;
+  color: #8b8f93 !important;
 }
 
 /* --------------------
@@ -24972,7 +24972,7 @@ ol.ui.suffixed.list li::before,
 .ui.inverted.form input[type="week"] {
   background: #fff;
   border-color: rgba(255, 255, 255, 0.1);
-  color: #666;
+  color: #1b1c1d;
   box-shadow: none;
 }
 
@@ -25322,6 +25322,18 @@ ol.ui.suffixed.list li::before,
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.form :-ms-input-placeholder {
+  color: #b3b3b3;
+}
+
+.ui.form ::-ms-input-placeholder {
+  color: #b3b3b3;
+}
+
+.ui.form ::placeholder {
+  color: #b3b3b3;
+}
 /*!
  * # Fomantic-UI 2.9.4 - Grid
  * https://github.com/fomantic/Fomantic-UI/

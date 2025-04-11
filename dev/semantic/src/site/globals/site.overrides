@@ -1,0 +1,8 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+@font-face {
+    font-family: 'PierceJamesonSans';
+    src:url('themes/basic/assets/fonts/PierceJamesonSans.eot'); 
+}*
