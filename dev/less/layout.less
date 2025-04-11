@@ -14,6 +14,11 @@
     src:url('font/Pierce Jameson Sans.eot?#') format('eot'),    
         url('font/Pierce Jameson Sans.woff') format('woff');
 }
+@font-face {
+    font-family: 'MyriadPro';
+    src:url('font/Myriad Pro Light.otf'); 
+}
+@lightGray: darken(#f7f7f7, 1); 
 h1,
 h2,
 h3,
@@ -21,11 +26,15 @@ h4,
 h5 {
     font-family: "PierceJamesonSans" !important;
 }
-
+main a{
+    font-weight: 700;
+}
 header{
     img{
         max-height: 822px;
         width: 100%;
+        object-fit: cover;
+        object-position: top;
     }
 }
 nav{
@@ -90,12 +99,21 @@ nav{
         > li, > li > a{
             line-height: 1.5;
             color: @primaryColor !important;
+            text-transform: uppercase;
         }
         li a{
             text-decoration: none;
+            color: @textColor;
             &:hover{
                 color: @primaryColor;
             }
+        }
+        li.content{
+            padding: 0;
+        }
+        .accordion li{
+            padding: 5px 0;
+            text-transform: none;
         }
     }
     ul{
@@ -132,7 +150,7 @@ h3 + .gray-box{
     margin-top: 2rem;
 }
 .gray-box{
-    background-color: lighten(@grey,45);
+    background-color: @lightGray;
     margin: 10px 0;
     &:not(.image){
         border-radius: 5px;
@@ -141,9 +159,18 @@ h3 + .gray-box{
     &.image{
         padding: 0 20px 0 0;
         border-radius: 0;
+        &.right{
+            padding: 0 0 0 20px;
+        }
         img{
             margin: -20px 0;
         }
+    }
+}
+.titulni{
+    margin-top: 2rem;
+    .segment{
+        font-size: @big;
     }
 }
 .o-nas{
@@ -155,6 +182,63 @@ h3 + .gray-box{
         }
     }
 }
+.text-above-image{
+    position: relative;
+    img{
+        height: 500px;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: top center;
+    }
+    .overlay-text{
+        .ui.header{
+            margin: 1rem 0 0.3rem;
+        }
+        position: absolute;
+        height: 200px;
+        width: 100%;
+        bottom: 0;
+        padding: 0 15px;
+        background-color: rgba(255,255,255, 0.9);
+        text-wrap: balance;
+        > p:first-of-type{
+            height: 7.5ex
+        }
+    }
+}
 .kariera{
     
+}
+.ui.segment{
+    background-color: @lightGray;
+}
+.ui.form:not(.initial) .field input:invalid{
+    background-color: @white;
+}
+.nase-produkty{
+    .ui.segment{
+        img{
+            max-height: 200px;
+            object-fit: contain;
+            &.logo-stamp{
+                position:relative;
+                top: -42px;
+                max-height: 300px;
+            }
+        }
+    }
+}
+footer{
+    margin-top: 3rem;
+    .container{
+        padding: 3rem 0; 
+    }
+    a{
+        text-decoration: none;
+        color: @textColor;
+        &:hover{
+            color: @primaryColor;
+            text-decoration: none;
+        }
+    }
 }

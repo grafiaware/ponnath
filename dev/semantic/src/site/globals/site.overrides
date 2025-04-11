@@ -5,4 +5,8 @@
 @font-face {
     font-family: 'PierceJamesonSans';
     src:url('themes/basic/assets/fonts/PierceJamesonSans.eot'); 
-}*
+}
+@font-face {
+    font-family: 'MyriadPro';
+    src:url('font/Myriad Pro Light.otf'); 
+}

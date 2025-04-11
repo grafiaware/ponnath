@@ -300,6 +300,10 @@
   src: url('font/Pierce Jameson Sans.eot');
   src: url('font/Pierce Jameson Sans.eot?#') format('eot'), url('font/Pierce Jameson Sans.woff') format('woff');
 }
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('font/Myriad Pro Light.otf');
+}
 h1,
 h2,
 h3,
@@ -307,9 +311,14 @@ h4,
 h5 {
   font-family: "PierceJamesonSans" !important;
 }
+main a {
+  font-weight: 700;
+}
 header img {
   max-height: 822px;
   width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 nav {
   padding: 0.8rem 0 0.5rem;
@@ -377,12 +386,21 @@ nav:not(.sticky) > div {
 #menu .ui.tree.accordion > li > a {
   line-height: 1.5;
   color: #a50028 !important;
+  text-transform: uppercase;
 }
 #menu .ui.tree.accordion li a {
   text-decoration: none;
+  color: #666;
 }
 #menu .ui.tree.accordion li a:hover {
   color: #a50028;
+}
+#menu .ui.tree.accordion li.content {
+  padding: 0;
+}
+#menu .ui.tree.accordion .accordion li {
+  padding: 5px 0;
+  text-transform: none;
 }
 #menu ul {
   list-style: none;
@@ -414,7 +432,7 @@ h3 + .gray-box {
   margin-top: 2rem;
 }
 .gray-box {
-  background-color: #e9e9e9;
+  background-color: #f4f4f4;
   margin: 10px 0;
 }
 .gray-box:not(.image) {
@@ -425,12 +443,74 @@ h3 + .gray-box {
   padding: 0 20px 0 0;
   border-radius: 0;
 }
+.gray-box.image.right {
+  padding: 0 0 0 20px;
+}
 .gray-box.image img {
   margin: -20px 0;
+}
+.titulni {
+  margin-top: 2rem;
+}
+.titulni .segment {
+  font-size: 1.3rem;
 }
 .o-nas .five.wide img {
   height: 315px;
   width: 100%;
   object-fit: cover;
+}
+.text-above-image {
+  position: relative;
+}
+.text-above-image img {
+  height: 500px;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+.text-above-image .overlay-text {
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  padding: 0 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-wrap: balance;
+}
+.text-above-image .overlay-text .ui.header {
+  margin: 1rem 0 0.3rem;
+}
+.text-above-image .overlay-text > p:first-of-type {
+  height: 7.5ex;
+}
+.ui.segment {
+  background-color: #f4f4f4;
+}
+.ui.form:not(.initial) .field input:invalid {
+  background-color: #fff;
+}
+.nase-produkty .ui.segment img {
+  max-height: 200px;
+  object-fit: contain;
+}
+.nase-produkty .ui.segment img.logo-stamp {
+  position: relative;
+  top: -42px;
+  max-height: 300px;
+}
+footer {
+  margin-top: 3rem;
+}
+footer .container {
+  padding: 3rem 0;
+}
+footer a {
+  text-decoration: none;
+  color: #666;
+}
+footer a:hover {
+  color: #a50028;
+  text-decoration: none;
 }
 /*# sourceMappingURL=layout.css.map */
