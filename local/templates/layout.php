@@ -19,6 +19,9 @@ $bodyTemplate;
     </head>
     <body class="layout">
         <?php include "body/$bodyTemplate.php"; ?>
+        <?php //include "body/paticka/kontakt.php"; ?>
+        <?php //include "body/paticka/gdpr.php"; ?>
+        <?php //include "body/paticka/vzor.php"; ?>        
         <?php include "body/scripts.php"; ?>
     </body>
 </html>
