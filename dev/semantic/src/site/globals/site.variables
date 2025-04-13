@@ -2,10 +2,9 @@
      User Global Variables
 *******************************/
 
-@fontName: "Myriad Pro, sans-serif";
-@googleFontName: @fontName;
 
 @importGoogleFonts : false;
+@fontName: "MyriadPro";
 @headerFont: "PierceJamesonSans";  
 @pageFont: @fontName, @fallbackFonts;
 
@@ -41,6 +40,14 @@
 @textColor: #666;
 
 @headerTopMargin: 2.4rem;
+@headerFontWeight: 400;
+
+@h1: unit((22 / 14), rem);
+@h2: unit((16 / 14), rem);
+@h3: unit((16 / 14), rem);
+@h4: unit((14 / 14), rem);
+@h5: unit((12 / 14), rem);
+@h6: unit((10 / 14), rem);
 
 /*-------------------
        Links

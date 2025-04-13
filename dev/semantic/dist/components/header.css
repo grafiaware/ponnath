@@ -20,7 +20,7 @@
   margin: 2.4rem 0 1rem;
   padding: 0 0;
   font-family: "PierceJamesonSans";
-  font-weight: bold;
+  font-weight: 400;
   line-height: 1.28571429em;
   text-transform: uppercase;
   color: #666;
@@ -128,37 +128,37 @@
      Page
 --------------- */
 h1.ui.header {
-  font-size: 2rem;
+  font-size: 1.57142857rem;
 }
 h1.ui.header .sub.header {
   font-size: 1.15rem;
 }
 h2.ui.header {
-  font-size: 1.71428571rem;
+  font-size: 1.14285714rem;
 }
 h2.ui.header .sub.header {
   font-size: 1.15rem;
 }
 h3.ui.header {
-  font-size: 1.28571429rem;
+  font-size: 1.14285714rem;
 }
 h3.ui.header .sub.header {
   font-size: 1rem;
 }
 h4.ui.header {
-  font-size: 1.07142857rem;
+  font-size: 1rem;
 }
 h4.ui.header .sub.header {
   font-size: 1rem;
 }
 h5.ui.header {
-  font-size: 1rem;
+  font-size: 0.85714286rem;
 }
 h5.ui.header .sub.header {
   font-size: 0.95rem;
 }
 h6.ui.header {
-  font-size: 0.85714286rem;
+  font-size: 0.71428571rem;
 }
 h6.ui.header .sub.header {
   font-size: 0.95rem;
@@ -168,7 +168,7 @@ h6.ui.header .sub.header {
  Content Heading
 --------------- */
 .ui.mini.header {
-  font-size: 0.85714286em;
+  font-size: 0.71428571em;
 }
 .ui.mini.header .sub.header {
   font-size: 0.95rem;
@@ -177,7 +177,7 @@ h6.ui.header .sub.header {
   font-size: 0.8em;
 }
 .ui.tiny.header {
-  font-size: 1em;
+  font-size: 0.85714286em;
 }
 .ui.tiny.header .sub.header {
   font-size: 0.95rem;
@@ -186,7 +186,7 @@ h6.ui.header .sub.header {
   font-size: 0.8em;
 }
 .ui.small.header {
-  font-size: 1.07142857em;
+  font-size: 1em;
 }
 .ui.small.header .sub.header {
   font-size: 1rem;
@@ -195,7 +195,7 @@ h6.ui.header .sub.header {
   font-size: 0.8em;
 }
 .ui.large.header {
-  font-size: 1.71428571em;
+  font-size: 1.14285714em;
 }
 .ui.large.header .sub.header {
   font-size: 1.15rem;
@@ -213,8 +213,7 @@ h6.ui.header .sub.header {
   font-size: 1em;
 }
 .ui.huge.header {
-  font-size: 2em;
-  min-height: 1em;
+  font-size: 1.57142857em;
 }
 .ui.huge.header .sub.header {
   font-size: 1.15rem;
@@ -762,7 +761,7 @@ a.ui.inverted.black.header.header.header:hover {
         Sizing
 -------------------- */
 .ui.header:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-size: 1.28571429em;
+  font-size: 1.14285714em;
 }
 
 

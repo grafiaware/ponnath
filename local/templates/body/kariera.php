@@ -2,14 +2,14 @@
     <?php include "menu/menu.php"; ?>
     <div class="ui fluid container">
         <header>
-            <img src="<?= $layoutImages.'kariera-hlavicka.webp'?>" alt="kariera"/>
+            <img class="ui fluid image" src="<?= $layoutImages.'kariera-hlavicka.webp'?>" alt="kariera"/>
         </header>
     </div>
     <div class="ui container">
         <main class="kariera">
             <div class="ui grid stackable">
                 <div class="sixteen wide column">
-                    <h2 class="ui primary header">Kariéra</h2>
+                    <h1 class="ui primary header">Kariéra</h1>
                     <p>Hledáme nadšené kolegy, kteří mají rádi svou práci a chtějí se podílet na výrobě produktů, za které se můžeme s hrdostí postavit.</p>
                 </div>
                 <div class="sixteen wide column">
@@ -19,7 +19,7 @@
                                 <img class="ui fluid image" src="<?= $layoutImages.'kariera.webp' ?>" alt="kariera" />
                             </div>
                             <div class="six wide column middle aligned">
-                                <h3 class="ui primary header">chcete být součástí týmu?</h3>
+                                <h2 class="ui primary header">chcete být součástí týmu?</h2>
                                 <p>Pojďte pracovat v prostředí, kde se řemeslo snoubí s moderní výrobou!</p>
                             </div>
                         </div>
@@ -27,7 +27,7 @@
                     
                 </div>
                 <div class="sixteen wide column">
-                    <h3 class="ui primary header">výhody práce u nás</h3>
+                    <h2 class="ui primary header">výhody práce u nás</h2>
                     <div class="gray-box">
                         <div class="ui two column grid stackable">
                             <div class="column">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="sixteen wide column">
-                    <h3 class="ui primary header">volné pracovní pozice</h3>
+                    <h2 class="ui primary header">volné pracovní pozice</h2>
                     <div class="gray-box">
                         <div class="ui two column grid stackable">
                             <div class="column">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="sixteen wide column">
-                    <h3 class="ui primary header">KONTAKTNÍ FORMULÁŘ</h3>
+                    <h2 class="ui primary header">KONTAKTNÍ FORMULÁŘ</h2>
                     <p>Vyplňte náš kontaktní formulář a my se vám ozveme.</p>
                     <div class="gray-box">
                         <div class="ui grid">

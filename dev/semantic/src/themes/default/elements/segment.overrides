@@ -1,3 +1,20 @@
 /*******************************
          Theme Overrides
 *******************************/
+.ui.segment, .ui.placeholder.segment{
+    border-color: transparent;
+}
+.kontakt .segment{
+    .ui.header{
+        margin-top: 1rem;
+    }
+    p{
+        margin-bottom: 0.5em;
+    }
+    .user.circle.icon{
+        font-size: 7em;
+    }
+    .ui.grid:not(.row) .column{
+        padding: 10px 0;
+    }
+}
