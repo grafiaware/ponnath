@@ -46,7 +46,7 @@
             <a href="page/kariera"><i class="chevron right icon"></i>Kariéra</a>
         </li>
         <li>
-            <a href="page/kontakt"><i class="chevron right icon"></i>Kontakt</a>
+            <a href="page/kontakty"><i class="chevron right icon"></i>Kontakt</a>
         </li>
     </ul>
 </div>

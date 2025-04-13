@@ -9,7 +9,7 @@
         <main class="kontakt">
             <div class="ui grid stackable">
                 <div class="sixteen wide column">
-                    <h1 class="ui primary header">Kontakt</h1>
+                    <h1 class="ui primary header">Kontakty</h1>
                 </div>
                 <div class="sixteen wide column">
                     <div class="ui segment">

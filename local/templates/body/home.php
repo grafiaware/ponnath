@@ -34,7 +34,7 @@
                                 <div class="overlay-text">
                                     <h3 class="ui primary header">O nás</h3>
                                     <p>Jsme Ponnath ŘEZNIČTÍ MISTŘI – rodinná společnost s více než 325letou tradicí řeznického řemesla.</p>
-                                    <p><a href="">Tradice v Ponnathu</a></p>
+                                    <p><a href="page/o-nas">Tradice v Ponnathu</a></p>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                                 <div class="overlay-text">
                                     <h3 class="ui primary header">Naše produkty</h3>
                                     <p>S láskou k řemeslu, s respektem k tradicím.</p>
-                                    <p><a href="">Co vyrábíme?</a></p>
+                                    <p><a href="page/nase-produkty">Co vyrábíme?</a></p>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                                 <div class="overlay-text">
                                     <h3 class="ui primary header">Přidejte se k nám</h3>
                                     <p>Společně rosteme jako společnost: Přihlaste se do rodinné skupiny PONNATH. Těšíme se na Váš životopis - i z vlastní iniciativy.</p>
-                                    <p><a href="">Kariéra v Ponnathu</a></p>
+                                    <p><a href="page/kariera">Kariéra v Ponnathu</a></p>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                                 <div class="overlay-text">
                                     <h3 class="ui primary header">Kontakty</h3>
                                     <p>Máte dotazy? Chcete u nás pracovat? Zavolejte nebo napište!</p>
-                                    <p><a href="">Kontaktujte nás</a></p>
+                                    <p><a href="page/kontakty">Kontaktujte nás</a></p>
                                 </div>
                             </div>
                         </div>
