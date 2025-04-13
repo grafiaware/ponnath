@@ -1,4 +1,4 @@
-<nav>
+<nav class="navbar">
     <div class="ui container">
         <div>
             <a href=""><img src="<?= $logoImages.'PonnathFamilyGroup_white.webp'?>" alt="logo Ponnath" height="60"/></a>
@@ -11,15 +11,15 @@
         </div>
     </div>
 </nav>
-<nav class="sticky">
+<nav class="navbar-sticking">
     <div class="ui container">
         <div>
             <a href=""><img src="<?= $logoImages.'PonnathFamilyGroup_color.webp'?>" alt="logo Ponnath" height="60"/></a>
             <!--<a href="index.php"><img src="<?= $logoImages.'ponnath_reznicti mistri_logo.svg'?>" alt="logo Ponnath" height="60"/></a>-->
             <div class="">
                 <div class="lang-de"><a href="https://ponnath.de">DE</a></div>
-                <div class="open-menu">Menu <i class="bars icon"></i></div>
-                <div class="close-menu"><i class="close icon"></i> Zavřít</div>
+                <div id="open-menu2">Menu <i class="bars icon"></i></div>
+                <div id="close-menu2"><i class="close icon"></i> Zavřít</div>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
 
 
 
-<div class="ui vertical menu" id="menu">
+<div class="ui vertical menu hidden" id="menu">
     <ul class="ui tree accordion">
         <li class="title">
             <i class="chevron right icon"></i>Ponnath

@@ -39,6 +39,7 @@ header{
 }
 nav{
     padding: 0.8rem 0 0.5rem;
+    z-index: 102;
     .container > div, 
     .container > div > div{
         display: flex;
@@ -59,21 +60,15 @@ nav{
             }
         }
     }
-    #open-menu, .open-menu{
+    #open-menu, #open-menu2{
         cursor: pointer;
         
     }
-    #close-menu, .close-menu{ 
+    #close-menu, #close-menu2{ 
         display: none;
         cursor: pointer;
     }
-    &.sticky{
-        top:0;
-        position: sticky;
-        background-color: @white;
-        z-index: 102;
-    }
-    &:not(.sticky){
+/*    &:not(.sticky){
         position: absolute;
         background-color: @black;
         color: white;
@@ -82,17 +77,72 @@ nav{
         > div{
             position: relative;
         }
+    }*/
+}
+.navbar{
+    position:absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    color: @white;
+    &.hide{
+        display: none;
+    }
+}
+.navbar-sticking{
+    background-color: @white;
+    position:sticky;
+    top: 0;
+    &.show{
+        display: block;
+        animation: animatetop 0.35s;
+    }
+    &:not(.show){
+        display: none;
+    }
+
+    @-webkit-keyframes animatetop {
+      from {
+        top: -300px;
+        opacity: 0;
+      }
+      to {
+        top: 0;
+        opacity: 1;
+      }
+    }
+    @keyframes animatetop {
+      from {
+        top: -300px;
+        opacity: 0;
+      }
+      to {
+        top: 0;
+        opacity: 1;
+      }
     }
 }
 #menu{
-    display: none;
     position: fixed;
-    top: 0;
-    right: 10%;
+    top: -21px;
+    right: 50px;
     padding: 80px 0px 30px;
     z-index: 100;
-    -webkit-animation: animateright 0.4s;
-    animation: animateright 0.4s;
+    border-radius: 0;
+    &:not(.hide){
+        -webkit-animation: animateright 0.4s;
+        animation: animateright 0.4s;
+        display: block;
+    }
+    &.hidden{
+        display: none;
+    }
+    &.hide{
+        -webkit-animation: animateleft 0.4s;
+        animation: animateleft 0.4s;
+        right: -300px;
+        //display: none;
+    }
     .ui.tree.accordion,{
         background-color: @white;
         color: @textColor;
@@ -129,20 +179,48 @@ nav{
       from {
         right: -300px;
         opacity: 0;
+        display: none;
       }
       to {
-        right: 10%;
+        right: 55px;
         opacity: 1;
+        display: block;
+      }
+    }
+    @-webkit-keyframes animateright {
+      from {
+        right: 55px;
+        opacity: 0;
+        display: block;
+      }
+      to {
+        right: -300px;
+        opacity: 1;
+        display: none;
       }
     }
     @keyframes animateright {
       from {
         right: -300px;
         opacity: 0;
+        display: none;
       }
       to {
-        right: 10%;
+        right: 55px;
         opacity: 1;
+        display: block;
+      }
+    }
+    @keyframes animateleft {
+      from {
+        right: 55px;
+        opacity: 0;
+        display: block;
+      }
+      to {
+        right: -300px;
+        opacity: 1;
+        display: none;
       }
     }
 }
