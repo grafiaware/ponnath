@@ -7,7 +7,7 @@
             </div>
             <div class="column middle aligned">
                 <div class="ui six column grid stackable center aligned">
-                    <div class="column"><a href="page/konzakz">Kontakt</a></div>
+                    <div class="column"><a href="page/kontakt">Kontakt</a></div>
                     <div class="column"><a href="page/gdpr">GDPR</a></div>
                     <div class="column"><a href="page/vzor">Vzor</a></div>
                     <div class="column"><a href="page/vzor">Vzor</a></div>

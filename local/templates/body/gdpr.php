@@ -1,6 +1,6 @@
 <div>
     <?php 
-    $path = $basePath."local/templates/body/menu/menu.php";
+    $path = "menu/menu.php";
     include $path 
     ?>
     <div class="ui fluid container">
