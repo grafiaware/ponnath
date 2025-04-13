@@ -35,18 +35,18 @@
         <li class="content">
             <ul class="accordion">
                 <li class="">
-                    <a href="">O nás</a>
+                    <a href="page/o-nas">O nás</a>
                 </li>
                 <li class="">
-                    <a href="">Naše produkty</a>
+                    <a href="page/nase-produkty">Naše produkty</a>
                 </li>
             </ul>
         </li>
         <li>
-            <a href=""><i class="chevron right icon"></i>Kariéra</a>
+            <a href="page/kariera"><i class="chevron right icon"></i>Kariéra</a>
         </li>
         <li>
-            <a href=""><i class="chevron right icon"></i>Kontakt</a>
+            <a href="page/kontakt"><i class="chevron right icon"></i>Kontakt</a>
         </li>
     </ul>
 </div>

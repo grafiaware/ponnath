@@ -23,6 +23,9 @@
     "autoload": {
         "psr-4": {
             "Site\\": "app/Site",
+            "Router\\": "src/Router",
+            "Controler\\": "src/Controler",
+            "View\\": "src/View",            
             "Test\\": "tests",
             "" : "src"
         }
