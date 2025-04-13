@@ -1,7 +1,7 @@
 <nav>
     <div class="ui container">
         <div>
-            <a href="index.php"><img src="<?= $logoImages.'PonnathFamilyGroup_white.webp'?>" alt="logo Ponnath" height="60"/></a>
+            <a href=""><img src="<?= $logoImages.'PonnathFamilyGroup_white.webp'?>" alt="logo Ponnath" height="60"/></a>
             <div class="">
                 <div class="lang-de"><a href="https://ponnath.de">DE</a></div>
                 <div id="open-menu">Menu <i class="bars inverted icon"></i></div>
@@ -13,7 +13,7 @@
 <nav class="sticky">
     <div class="ui container">
         <div>
-            <a href="index.php"><img src="<?= $logoImages.'PonnathFamilyGroup_color.webp'?>" alt="logo Ponnath" height="60"/></a>
+            <a href=""><img src="<?= $logoImages.'PonnathFamilyGroup_color.webp'?>" alt="logo Ponnath" height="60"/></a>
             <div class="">
                 <div class="lang-de"><a href="https://ponnath.de">DE</a></div>
                 <div class="open-menu">Menu <i class="bars icon"></i></div>
@@ -34,18 +34,18 @@
         <li class="content">
             <ul class="accordion">
                 <li class="">
-                    <a href="">O nás</a>
+                    <a href="page/o-nas">O nás</a>
                 </li>
                 <li class="">
-                    <a href="">Naše produkty</a>
+                    <a href="page/nase-produkty">Naše produkty</a>
                 </li>
             </ul>
         </li>
         <li>
-            <a href=""><i class="chevron right icon"></i>Kariéra</a>
+            <a href="page/kariera"><i class="chevron right icon"></i>Kariéra</a>
         </li>
         <li>
-            <a href=""><i class="chevron right icon"></i>Kontakt</a>
+            <a href="page/kontakt"><i class="chevron right icon"></i>Kontakt</a>
         </li>
     </ul>
 </div>
