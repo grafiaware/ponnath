@@ -12,6 +12,10 @@ class ComposerStaticInitb85a536348eef4b18fc92a38fc6e01d7
     );
 
     public static $prefixLengthsPsr4 = array (
+        'V' => 
+        array (
+            'View\\' => 5,
+        ),
         'T' => 
         array (
             'Test\\' => 5,
@@ -19,6 +23,10 @@ class ComposerStaticInitb85a536348eef4b18fc92a38fc6e01d7
         'S' => 
         array (
             'Site\\' => 5,
+        ),
+        'R' => 
+        array (
+            'Router\\' => 7,
         ),
         'P' => 
         array (
@@ -35,9 +43,17 @@ class ComposerStaticInitb85a536348eef4b18fc92a38fc6e01d7
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
+        'C' => 
+        array (
+            'Controler\\' => 10,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'View\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/View',
+        ),
         'Test\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
@@ -45,6 +61,10 @@ class ComposerStaticInitb85a536348eef4b18fc92a38fc6e01d7
         'Site\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app/Site',
+        ),
+        'Router\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Router',
         ),
         'Psr\\Log\\' => 
         array (
@@ -57,8 +77,8 @@ class ComposerStaticInitb85a536348eef4b18fc92a38fc6e01d7
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Container\\' => 
         array (
@@ -83,6 +103,10 @@ class ComposerStaticInitb85a536348eef4b18fc92a38fc6e01d7
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Controler\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Controler',
         ),
     );
 
