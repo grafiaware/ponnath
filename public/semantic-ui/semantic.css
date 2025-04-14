@@ -5472,8 +5472,8 @@ input::selection {
 @media only screen and (max-width: 744.98px) {
   .ui.ui.ui.container:not(.fluid) {
     width: auto;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
 
   .ui.ui.ui.grid.container {

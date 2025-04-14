@@ -22,15 +22,41 @@
     
 }
 @media (max-width: @computerBreakpoint) { //1005px;
+    body{
+        font-size: 18px;
+    }
     #menu{
         --animateright: 0; 
     }
+    .text-above-image{
+        position: relative;
+        img{
+            height: 500px;
+            max-width: 100%;
+            object-fit: cover;
+            object-position: top center;
+        }
+        .overlay-text{
+            .ui.header{
+                margin: 0.7rem 0 0.2rem;
+            }
+            height: 225px;
+            > p:first-of-type{
+                height: 10ex
+            }
+        }
+    }
 }
 @media (max-width: @tabletBreakpoint) { //745px;
-    
+   
 }
-@media (max-width: px) {
-    
+@media (max-width: 530px) {
+    .text-above-image{
+         margin: 0 -1.5rem;
+    }
+    .titulni .segment{
+        font-size: 1.2em; 
+    }
 }
 
 #menu{
