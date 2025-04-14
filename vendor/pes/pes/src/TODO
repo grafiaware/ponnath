@@ -1,3 +1,0 @@
-
-- generovat sitemap.xml - možná automaticky z databáze - v .htaccess přesměrování sitemap.xmp na sitemap.php a ten vrací vygenerované xml
-    a k tomu pravit robots.txt nebo jinak předat googlu
