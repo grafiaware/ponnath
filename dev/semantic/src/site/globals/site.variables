@@ -6,7 +6,7 @@
 @importGoogleFonts : false;
 @fontName: "MyriadPro";
 @headerFont: "PierceJamesonSans";  
-@pageFont: @fontName, @fallbackFonts;
+@pageFont: @fontName; 
 
 
 /* -------------------

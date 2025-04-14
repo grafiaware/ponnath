@@ -9,15 +9,98 @@
 @import (optional) "../semantic/src/site/globals/site.variables";   
 
 
+@media (max-width: 1600px) {
+    #menu{
+        --animateright: 2%; 
+    }
+    
+}
 @media (max-width: @largeMonitorBreakpoint) { //1347px;
+    #menu{
+        --animateright: 4%; 
+    }
     
 }
 @media (max-width: @computerBreakpoint) { //1005px;
-    
+    #menu{
+        --animateright: 0; 
+    }
 }
 @media (max-width: @tabletBreakpoint) { //745px;
     
 }
 @media (max-width: px) {
     
+}
+
+#menu{
+    right: var(--animateright);
+}
+ @-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+    display: none;
+  }
+  to {
+    right: var(--animateright);
+    opacity: 1;
+    display: block;
+  }
+}
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+    display: none;
+  }
+  to {
+    right: var(--animateright);
+    opacity: 1;
+    display: block;
+  }
+}
+@-webkit-keyframes animateleft{
+  from {
+    right: var(--animateright);
+    opacity: 0;
+    display: block;
+  }
+  to {
+    right: -300px;
+    opacity: 1;
+    display: none;
+  }
+}
+@keyframes animateleft {
+  from {
+    right: var(--animateright);
+    opacity: 0;
+    display: block;
+  }
+  to {
+    right: -300px;
+    opacity: 1;
+    display: none;
+  }
 }
