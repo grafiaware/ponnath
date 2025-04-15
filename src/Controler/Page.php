@@ -18,6 +18,7 @@ class Page {
         'logoImages' => 'public/img/logo/',
         'layoutImages' => 'public/img/',
         'layoutVideo' => 'public/video/',
+        'layoutFiles' => 'public/files/',
         'bodyTemplate' => $templateName,
         ];
         $includer = new Includer();

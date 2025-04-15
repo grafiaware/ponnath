@@ -6,6 +6,7 @@ $linksSite;
 $logoImages;
 $layoutImages;
 $layoutVideo;
+$layoutFiles;
 $bodyTemplate;
 ?>
 <!doctype html>
