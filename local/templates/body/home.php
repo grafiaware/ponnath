@@ -8,7 +8,7 @@
                 Váš prohlížeč nepodporuje HTML5 video.
             </video>
             <video class="videoMobile" autoplay muted loop playsinline style="width: 100%; height: auto;">
-                <source src="<?= $layoutVideo.'ponnath_mobileVideo.mov'?>" type="video/mp4">
+                <source src="<?= $layoutVideo.'ponnath_mobilevideo.mov'?>" type="video/mp4">
                 Váš prohlížeč nepodporuje HTML5 video.
             </video>
         </header>
