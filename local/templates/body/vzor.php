@@ -5,7 +5,7 @@
     ?>
     <div class="ui fluid container">
         <header>
-            <img class="ui fluid image" src="<?= $layoutImages.'hlavicka-paticka.webp'?>" alt="informace"/>
+            <img class="ui fluid image" src="<?= $layoutImages.'budovaS.webp'?>" alt="informace"/>
         </header>
     </div>
     <div class="ui container">

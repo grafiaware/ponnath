@@ -2,7 +2,7 @@
     <?php include "menu/menu.php"; ?>
     <div class="ui fluid container">
         <header>
-            <img class="ui fluid image" src="<?= $layoutImages.'kontakt.webp'?>" alt="budova susice"/>
+            <img class="ui fluid image" src="<?= $layoutImages.'budovaS.webp'?>" alt="budova susice"/>
         </header>
     </div>
     <div class="ui container">

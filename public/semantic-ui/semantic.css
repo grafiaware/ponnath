@@ -1420,7 +1420,7 @@ input::selection {
 
 /* Tablet Or Below */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.stackable.buttons {
     flex-direction: column;
     width: 100%;
@@ -5469,7 +5469,7 @@ input::selection {
 
 /* Mobile */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.ui.ui.container:not(.fluid) {
     width: auto;
     margin-left: 0.5em;
@@ -5491,23 +5491,23 @@ input::selection {
 
 /* Tablet */
 
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.ui.ui.container:not(.fluid) {
-    width: 688px;
+    width: 690px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .ui.ui.ui.grid.container {
-    width: calc(688px + 2rem);
+    width: calc(690px + 2rem);
   }
 
   .ui.ui.ui.relaxed.grid.container {
-    width: calc(688px + 3rem);
+    width: calc(690px + 3rem);
   }
 
   .ui.ui.ui.very.relaxed.grid.container {
-    width: calc(688px + 5rem);
+    width: calc(690px + 5rem);
   }
 }
 
@@ -5570,9 +5570,9 @@ input::selection {
 
 /* Wide Container */
 
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.ui.ui.wide.container {
-    width: 825.6px;
+    width: 828px;
   }
 }
 
@@ -5627,7 +5627,7 @@ input::selection {
   overscroll-behavior: none;
 }
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.scrolling.container.short {
     max-height: 11.25em;
   }
@@ -5665,7 +5665,7 @@ input::selection {
   }
 }
 
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.scrolling.container.short {
     max-height: 13.5em;
   }
@@ -5928,7 +5928,7 @@ input::selection {
   flex: 1;
 }
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.stackable.grid .column + .ui.vertical.divider,
   .ui.grid .stackable.row .column + .ui.vertical.divider {
     margin: 1rem;
@@ -6109,7 +6109,7 @@ input::selection {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAACCAYAAACuTHuKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OThBRDY4OUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OThBRDY4QUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU5OEFENjg3Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU5OEFENjg4Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VU513gAAADVJREFUeNrs0DENACAQBDBIWLGBJQby/mUcJn5sJXQmOQMAAAAAAJqt+2prAAAAAACg2xdgANk6BEVuJgyMAAAAAElFTkSuQmCC");
 }
 
-@media only screen and (max-width: 744px) {
+@media only screen and (max-width: 746px) {
   .ui.stackable.grid .ui.vertical.divider::before,
   .ui.grid .stackable.row .ui.vertical.divider::before,
   .ui.stackable.grid .ui.vertical.divider::after,
@@ -22960,7 +22960,7 @@ ol.ui.suffixed.list li::before,
   overscroll-behavior: none;
 }
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.scrolling.segment.short {
     max-height: 11.25em;
   }
@@ -23002,7 +23002,7 @@ ol.ui.suffixed.list li::before,
   }
 }
 
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.scrolling.segment.short {
     max-height: 13.5em;
   }
@@ -25106,7 +25106,7 @@ ol.ui.suffixed.list li::before,
 
 /* Swap to full width on mobile */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.form .fields {
     flex-wrap: wrap;
     margin-bottom: 0;
@@ -25512,7 +25512,7 @@ ol.ui.suffixed.list li::before,
            Page Grid
     ------------------------- */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.page.grid {
     width: auto;
     padding-left: 0;
@@ -25522,7 +25522,7 @@ ol.ui.suffixed.list li::before,
   }
 }
 
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.page.grid {
     width: auto;
     margin-left: 0;
@@ -25851,7 +25851,7 @@ ol.ui.suffixed.list li::before,
 
 /* Mobile Sizing Combinations */
 
-@media only screen and (min-width: 320px) and (max-width: 744.98px) {
+@media only screen and (min-width: 320px) and (max-width: 746.98px) {
   .ui.grid > .row > [class*="one wide mobile"].column,
   .ui.grid > .column.row > [class*="one wide mobile"].column,
   .ui.grid > [class*="one wide mobile"].column,
@@ -25967,7 +25967,7 @@ ol.ui.suffixed.list li::before,
 
 /* Tablet Sizing Combinations */
 
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.grid > .row > [class*="one wide tablet"].column,
   .ui.grid > .column.row > [class*="one wide tablet"].column,
   .ui.grid > [class*="one wide tablet"].column,
@@ -26925,7 +26925,7 @@ ol.ui.suffixed.list li::before,
 
 /* Mobile */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui[class*="mobile reversed"].grid,
   .ui[class*="mobile reversed"].grid > .row,
   .ui.grid > [class*="mobile reversed"].row {
@@ -26972,7 +26972,7 @@ ol.ui.suffixed.list li::before,
 
 /* Tablet */
 
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui[class*="tablet reversed"].grid,
   .ui[class*="tablet reversed"].grid > .row,
   .ui.grid > [class*="tablet reversed"].row {
@@ -27068,7 +27068,7 @@ ol.ui.suffixed.list li::before,
 
 /* Tablet Only */
 
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.doubling.grid {
     width: auto;
   }
@@ -27185,7 +27185,7 @@ ol.ui.suffixed.list li::before,
 
 /* Mobile Only */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.grid > .doubling.row,
   .ui.doubling.grid > .row {
     margin: 0 !important;
@@ -27295,7 +27295,7 @@ ol.ui.suffixed.list li::before,
           Stackable
     -------------------- */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   body > .ui.stackable.grid,
   .ui:not(.segment):not(.grid) .ui.stackable.grid {
     width: auto;
@@ -27382,7 +27382,7 @@ ol.ui.suffixed.list li::before,
 
 /* Mobile Only Hide */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.ui.ui[class*="tablet only"].grid:not(.mobile),
   .ui.ui.ui.grid > [class*="tablet only"].row:not(.mobile),
   .ui.ui.ui.grid > [class*="tablet only"].column:not(.mobile),
@@ -27414,7 +27414,7 @@ ol.ui.suffixed.list li::before,
 
 /* Tablet Only Hide */
 
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.ui.ui[class*="mobile only"].grid:not(.tablet),
   .ui.ui.ui.grid > [class*="mobile only"].row:not(.tablet),
   .ui.ui.ui.grid > [class*="mobile only"].column:not(.tablet),
@@ -28026,7 +28026,7 @@ ol.ui.suffixed.list li::before,
     Container
 --------------- */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.menu > .ui.container {
     width: 100% !important;
     margin-left: 0 !important;
@@ -28034,7 +28034,7 @@ ol.ui.suffixed.list li::before,
   }
 }
 
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless) > .container > .item:not(.right):not(.borderless):first-child {
     border-left: 1px solid rgba(34, 36, 38, 0.1);
   }
@@ -29008,7 +29008,7 @@ Floated Menu / Item
         Stackable
     --------------- */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.stackable.menu {
     flex-direction: column;
   }
@@ -29830,7 +29830,7 @@ Floated Menu / Item
   background-color: #fff;
 }
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.stackable.grid .ui.fluid.vertical.pointing.menu .active.item::after {
     display: none;
   }
@@ -30314,7 +30314,7 @@ Floated Menu / Item
 
 /* Responsive */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.table:not(.unstackable) {
     width: 100%;
     padding: 0;
@@ -30689,7 +30689,7 @@ Floated Menu / Item
       Scrolling
     --------------- */
 
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.scrolling.table.short > tbody {
     max-height: 9.0855em;
   }
@@ -30952,7 +30952,7 @@ Floated Menu / Item
   overscroll-behavior: none;
 }
 
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.overflowing.table.short {
     max-height: 13.62825em;
   }
@@ -36012,7 +36012,7 @@ a.ui.basic.inverted.black.card:hover,
 
 /* Mobile Only */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.two.doubling.cards {
     margin-left: 0;
     margin-right: 0;
@@ -36115,7 +36115,7 @@ a.ui.basic.inverted.black.card:hover,
 
 /* Tablet Only */
 
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.two.doubling.cards {
     margin-left: 0;
     margin-right: 0;
@@ -36220,7 +36220,7 @@ a.ui.basic.inverted.black.card:hover,
           Stackable
     -------------------- */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.stackable.cards {
     display: block !important;
   }
@@ -36733,7 +36733,7 @@ a.inverted.ui.card:hover,
 
 /* Tablet Only */
 
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.items > .item {
     margin: 1em 0;
   }
@@ -36750,7 +36750,7 @@ a.inverted.ui.card:hover,
 
 /* Mobile Only */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.items:not(.unstackable) > .item {
     flex-direction: column;
     margin: 2em 0;
@@ -36894,7 +36894,7 @@ a.inverted.ui.card:hover,
        Unstackable
     ---------------- */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.unstackable.items > .item > .image,
   .ui.unstackable.items > .item > .image > img {
     width: 125px !important;
@@ -38797,7 +38797,7 @@ select.ui.dropdown {
   padding: 0.8rem 1.15rem;
 }
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.ui.selection.dropdown.short .menu {
     max-height: 6.075rem;
   }
@@ -38819,7 +38819,7 @@ select.ui.dropdown {
   }
 }
 
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.ui.selection.dropdown.short .menu {
     max-height: 8.1rem;
   }
@@ -39139,13 +39139,13 @@ select.ui.dropdown {
   backface-visibility: hidden;
 }
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.search.dropdown:not(.unlimited) .menu {
     max-height: 8.1rem;
   }
 }
 
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.search.dropdown:not(.unlimited) .menu {
     max-height: 10.8rem;
   }
@@ -39896,7 +39896,7 @@ select.ui.dropdown {
   }
 }
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
     max-height: 10.4rem;
@@ -39908,7 +39908,7 @@ select.ui.dropdown {
   }
 }
 
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.scrolling.dropdown .menu,
   .ui.dropdown .scrolling.menu {
     max-height: 15.6rem;
@@ -41415,7 +41415,7 @@ select.ui.dropdown {
   backface-visibility: hidden;
 }
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.scrolling.search > .results {
     max-height: 12.12em;
   }
@@ -41425,7 +41425,7 @@ select.ui.dropdown {
   }
 }
 
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.scrolling.search > .results {
     max-height: 18.18em;
   }
@@ -41460,7 +41460,7 @@ select.ui.dropdown {
   max-height: none;
 }
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.search.short > .results {
     max-height: 12.12em;
   }
@@ -41478,7 +41478,7 @@ select.ui.dropdown {
   }
 }
 
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.search.short > .results {
     max-height: 18.18em;
   }
@@ -41594,7 +41594,7 @@ select.ui.dropdown {
       Mobile
 --------------- */
 
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.search .results {
     max-width: calc(100vw - 2rem);
   }

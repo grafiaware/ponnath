@@ -21,7 +21,7 @@
 }
 
 /* Mobile */
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.ui.ui.container:not(.fluid) {
     width: auto;
     margin-left: 0.5em;
@@ -39,20 +39,20 @@
 }
 
 /* Tablet */
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.ui.ui.container:not(.fluid) {
-    width: 688px;
+    width: 690px;
     margin-left: auto;
     margin-right: auto;
   }
   .ui.ui.ui.grid.container {
-    width: calc(688px + 2rem);
+    width: calc(690px + 2rem);
   }
   .ui.ui.ui.relaxed.grid.container {
-    width: calc(688px + 3rem);
+    width: calc(690px + 3rem);
   }
   .ui.ui.ui.very.relaxed.grid.container {
-    width: calc(688px + 5rem);
+    width: calc(690px + 5rem);
   }
 }
 
@@ -107,9 +107,9 @@
 }
 
 /* Wide Container */
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.ui.ui.wide.container {
-    width: 825.6px;
+    width: 828px;
   }
 }
 @media only screen and (min-width: 1005px) and (max-width: 1346.98px) {
@@ -157,7 +157,7 @@
   -ms-scroll-chaining: none;
       overscroll-behavior: none;
 }
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.scrolling.container.short {
     max-height: 11.25em;
   }
@@ -186,7 +186,7 @@
     height: 45em;
   }
 }
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.scrolling.container.short {
     max-height: 13.5em;
   }

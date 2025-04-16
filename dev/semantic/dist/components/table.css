@@ -164,7 +164,7 @@
 }
 
 /* Responsive */
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.table:not(.unstackable) {
     width: 100%;
     padding: 0;
@@ -456,7 +456,7 @@
 /* --------------
       Scrolling
     --------------- */
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.scrolling.table.short > tbody {
     max-height: 9.0855em;
   }
@@ -669,7 +669,7 @@
   -ms-scroll-chaining: none;
       overscroll-behavior: none;
 }
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.overflowing.table.short {
     max-height: 13.62825em;
   }

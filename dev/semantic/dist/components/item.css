@@ -307,7 +307,7 @@
 }
 
 /* Tablet Only */
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.items > .item {
     margin: 1em 0;
   }
@@ -321,7 +321,7 @@
 }
 
 /* Mobile Only */
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.items:not(.unstackable) > .item {
     flex-direction: column;
     margin: 2em 0;
@@ -443,7 +443,7 @@
 /* ---------------
        Unstackable
     ---------------- */
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.unstackable.items > .item > .image,
   .ui.unstackable.items > .item > .image > img {
     width: 125px !important;

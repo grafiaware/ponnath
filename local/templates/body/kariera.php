@@ -103,6 +103,7 @@
                                     <div class="required field">
                                         <label>Název pozice, o kterou máte zájem</label>
                                         <select name="jobTitle" id="jobTitle">
+                                            <option selected="true" disabled="disabled">Vyberte ze seznamu</option>
                                             <option value="ridici">Řídící pracovníci na oddělení narážek</option>
                                             <option value="asistentka">Asistent/ka marketingu</option>
                                             <option value="vyroba">Výrobní pracovníci – narážka, udírny, balení</option>
