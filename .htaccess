@@ -11,7 +11,7 @@ Options +FollowSymLinks
 
 RewriteEngine On
 
-RewriteBase "/ponnath/"
+RewriteBase "/www/"
 
 #RewriteRule ^(.*) indexunderreconstruction.html [QSA,L]
 

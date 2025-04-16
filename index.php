@@ -9,7 +9,7 @@ include 'vendor/autoload.php';
 const DEVELOPMENT = true;// false;
 define('PROJECT_PATH', str_replace("\\", "/", preg_replace('/^'.preg_quote($_SERVER['DOCUMENT_ROOT'], '/') . '/', '', __DIR__))."/");
 
-define('BASE_PATH', "/ponnath/");  // musí začínat a končit / (nebo jen jedno "/")
+define('BASE_PATH', "/www/");  // musí začínat a končit / (nebo jen jedno "/")
 $router = new Router();
 
 $router->addRoute('GET', '/', function () {
