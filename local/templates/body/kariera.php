@@ -93,7 +93,7 @@
                                     <div class="two fields">
                                         <div class="required field">
                                             <label>Telefonní číslo</label>
-                                            <input type="tel" name="phone" placeholder="+420 777 888 555" pattern="(\+420)\s[1-9]\d{2}\s\d{3}\s\d{3}" maxlength="45" required>
+                                            <input type="tel" name="phone" placeholder="+420 777 888 555" pattern="^[0-9-+\s()]*$" required>
                                         </div>
                                         <div class="required field">
                                             <label>Bydliště</label>
@@ -102,15 +102,16 @@
                                     </div>
                                     <div class="required field">
                                         <label>Název pozice, o kterou máte zájem</label>
-                                        <select name="jobTitle" id="jobTitle">
-                                            <option value="ridici">Řídící pracovníci na oddělení narážek</option>
-                                            <option value="asistentka">Asistent/ka marketingu</option>
-                                            <option value="vyroba">Výrobní pracovníci – narážka, udírny, balení</option>
+                                        <select name="job" id="job" required>
+                                            <option value="" selected disabled>Klikněte a vyberte pozici</option>
+                                            <option value="Řídící pracovníci na oddělení narážek">Řídící pracovníci na oddělení narážek</option>
+                                            <option value="Asistent/ka marketingu">Asistent/ka marketingu</option>
+                                            <option value="Výrobní pracovníci – narážka, udírny, balení">Výrobní pracovníci – narážka, udírny, balení</option>
                                         </select>
                                     </div>
                                     <div class="field">
                                         <label>Vaše zpráva (volitelně)</label>
-                                        <input type="text" name="job" placeholder="Jan Novák" maxlength="90" required>
+                                        <textarea name="message" placeholder="Zde můžete napsat zprávu..." maxlength="250"></textarea>
                                     </div>
                                     <div class="field">
                                         <button type="submit" class="ui primary button">Odeslat</button>
