@@ -602,7 +602,7 @@
     --------------- */
 
 /* Tablet Or Below */
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.stackable.buttons {
     flex-direction: column;
     width: 100%;

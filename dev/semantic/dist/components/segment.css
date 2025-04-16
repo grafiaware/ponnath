@@ -871,7 +871,7 @@
   -ms-scroll-chaining: none;
       overscroll-behavior: none;
 }
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.scrolling.segment.short {
     max-height: 11.25em;
   }
@@ -903,7 +903,7 @@
     height: 45em;
   }
 }
-@media only screen and (min-width: 745px) {
+@media only screen and (min-width: 747px) {
   .ui.scrolling.segment.short {
     max-height: 13.5em;
   }

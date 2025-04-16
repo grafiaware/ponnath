@@ -46,7 +46,7 @@ class Router {
                 }
             }
         }
-        throw new UnexpectedValueException("Route '$routeUrl' not found");
+        throw new UnexpectedValueException("Route $method '${parsed_url['path']}' not found");
     } 
     
     private function canonicalize($urlPattern) {

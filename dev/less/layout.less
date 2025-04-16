@@ -40,6 +40,9 @@ header{
         object-position: top;
     }
 }
+.videoMobile{
+    display: none;
+}
 nav{
     padding: 0.8rem 0 0.5rem;
     z-index: 102;
@@ -71,16 +74,6 @@ nav{
         display: none;
         cursor: pointer;
     }
-/*    &:not(.sticky){
-        position: absolute;
-        background-color: @black;
-        color: white;
-        z-index: 105;
-        width: 100%;
-        > div{
-            position: relative;
-        }
-    }*/
 }
 .navbar{
     position:absolute;
@@ -124,7 +117,6 @@ nav{
         -webkit-animation: animateleft 0.4s;
         animation: animateleft 0.4s;
         right: -300px;
-        //display: none;
     }
     .ui.tree.accordion,{
         background-color: @white;
@@ -255,6 +247,21 @@ footer{
         &:hover{
             color: @primaryColor;
             text-decoration: none;
+        }
+        i.envelope::after{
+            content: '';
+            position: absolute;
+            width: @fontSize*1.5;
+            height: @fontSize*1.5;
+            border: 2px solid @textColor;
+            border-radius: 100%;
+            text-align: center;
+            transform: translateX(-79%) translateY(-21%);
+            &:hover{
+            }
+        }
+        i.envelope:hover::after{
+            border-color: @primaryColor;
         }
     }
 }

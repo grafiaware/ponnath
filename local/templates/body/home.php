@@ -3,8 +3,12 @@
     <?php include "menu/menu.php"; ?>
     <div class="ui fluid container">
         <header>
-            <video autoplay muted loop playsinline style="width: 100%; height: auto;">
+            <video class="videoPC" autoplay muted loop playsinline style="width: 100%; height: auto;">
                 <source src="<?= $layoutVideo.'ponnath_video.mp4'?>" type="video/mp4">
+                Váš prohlížeč nepodporuje HTML5 video.
+            </video>
+            <video class="videoMobile" autoplay muted loop playsinline style="width: 100%; height: auto;">
+                <source src="<?= $layoutVideo.'ponnath_mobileVideo.mov'?>" type="video/mp4">
                 Váš prohlížeč nepodporuje HTML5 video.
             </video>
         </header>
@@ -53,14 +57,14 @@
                                 <img src="<?= $layoutImages.'kariera.webp'?>" alt="kariera" />
                                 <div class="overlay-text">
                                     <h3 class="ui primary header">Přidejte se k nám</h3>
-                                    <p>Společně rosteme jako společnost: Přihlaste se do rodinné skupiny PONNATH. Těšíme se na Váš životopis - i z vlastní iniciativy.</p>
+                                    <p>Společně rosteme jako společnost: Přihlaste se do rodinné skupiny PONNATH. Těšíme se na Váš životopis.</p>
                                     <p><a href="page/kariera">Kariéra v Ponnathu</a></p>
                                 </div>
                             </div>
                         </div>
                         <div class="column">
                             <div class="text-above-image">
-                                <img src="<?= $layoutImages.'kontakt.webp'?>" alt="kontakt" />
+                                <img src="<?= $layoutImages.'budova.webp'?>" alt="kontakt" />
                                 <div class="overlay-text">
                                     <h3 class="ui primary header">Kontakty</h3>
                                     <p>Máte dotazy? Chcete u nás pracovat? Zavolejte nebo napište!</p>

@@ -14,10 +14,7 @@
                     <!--<div class="column"><a href="page/vzor">Vzor</a></div>-->
                     <div class="column">
                         <a href="mailto:info@ponnath.cz">
-                            <i class="icons">
-                                <i class="big circle outline link icon"></i>
-                                <i class="envelope outline link icon"></i>
-                            </i>
+                            <i class="envelope outline link icon"></i>
                         </a>
                     </div>
                 </div>

@@ -138,7 +138,7 @@
 /* -----------------------
            Page Grid
     ------------------------- */
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.page.grid {
     width: auto;
     padding-left: 0;
@@ -147,7 +147,7 @@
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.page.grid {
     width: auto;
     margin-left: 0;
@@ -422,7 +422,7 @@
     ----------------------- */
 
 /* Mobile Sizing Combinations */
-@media only screen and (min-width: 320px) and (max-width: 744.98px) {
+@media only screen and (min-width: 320px) and (max-width: 746.98px) {
   .ui.grid > .row > [class*="one wide mobile"].column,
   .ui.grid > .column.row > [class*="one wide mobile"].column,
   .ui.grid > [class*="one wide mobile"].column,
@@ -522,7 +522,7 @@
 }
 
 /* Tablet Sizing Combinations */
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.grid > .row > [class*="one wide tablet"].column,
   .ui.grid > .column.row > [class*="one wide tablet"].column,
   .ui.grid > [class*="one wide tablet"].column,
@@ -1351,7 +1351,7 @@
     ----------------------- */
 
 /* Mobile */
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui[class*="mobile reversed"].grid,
   .ui[class*="mobile reversed"].grid > .row,
   .ui.grid > [class*="mobile reversed"].row {
@@ -1390,7 +1390,7 @@
 }
 
 /* Tablet */
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui[class*="tablet reversed"].grid,
   .ui[class*="tablet reversed"].grid > .row,
   .ui.grid > [class*="tablet reversed"].row {
@@ -1470,7 +1470,7 @@
     -------------------- */
 
 /* Tablet Only */
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.doubling.grid {
     width: auto;
   }
@@ -1568,7 +1568,7 @@
 }
 
 /* Mobile Only */
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.grid > .doubling.row,
   .ui.doubling.grid > .row {
     margin: 0 !important;
@@ -1661,7 +1661,7 @@
 /* -------------------
           Stackable
     -------------------- */
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   body > .ui.stackable.grid,
   .ui:not(.segment):not(.grid) .ui.stackable.grid {
     width: auto;
@@ -1738,7 +1738,7 @@
 /* These include arbitrary class repetitions for forced specificity */
 
 /* Mobile Only Hide */
-@media only screen and (max-width: 744.98px) {
+@media only screen and (max-width: 746.98px) {
   .ui.ui.ui[class*="tablet only"].grid:not(.mobile),
   .ui.ui.ui.grid > [class*="tablet only"].row:not(.mobile),
   .ui.ui.ui.grid > [class*="tablet only"].column:not(.mobile),
@@ -1766,7 +1766,7 @@
 }
 
 /* Tablet Only Hide */
-@media only screen and (min-width: 745px) and (max-width: 1004.98px) {
+@media only screen and (min-width: 747px) and (max-width: 1004.98px) {
   .ui.ui.ui[class*="mobile only"].grid:not(.tablet),
   .ui.ui.ui.grid > [class*="mobile only"].row:not(.tablet),
   .ui.ui.ui.grid > [class*="mobile only"].column:not(.tablet),
