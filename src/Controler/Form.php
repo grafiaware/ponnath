@@ -89,7 +89,7 @@ $subject = 'Mail z webu ponnath.cz';
     }
     
     private function save($message) {
-        $logger = FileLogger::getInstance('Logs/Mail', 'Mail.log', FileLogger::APPEND_TO_LOG);
+        $logger = FileLogger::getInstance('/Logs/Mail', 'Mail.log', FileLogger::APPEND_TO_LOG);
         $logger->info($message);
     }
     
