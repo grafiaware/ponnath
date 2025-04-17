@@ -16,12 +16,12 @@ $router->addRoute('GET', '/', function () {
     $ctrl = new Page();
     return $ctrl->withTemplate('home');
 });
-$router->addRoute('GET', '/router', function () {
-    return "My route is working!";
-});
-$router->addRoute('GET', '/blogs/:blogID', function ($blogID) {
-    return "My route is working with blogID => $blogID !";
-});
+//$router->addRoute('GET', '/router', function () {
+//    return "My route is working!";
+//});
+//$router->addRoute('GET', '/blogs/:blogID', function ($blogID) {
+//    return "My route is working with blogID => $blogID !";
+//});
 $router->addRoute('GET', '/page/:name', function ($name) {
     $ctrl = new Page();
     return $ctrl->withTemplate($name);
