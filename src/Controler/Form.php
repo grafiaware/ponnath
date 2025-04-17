@@ -71,6 +71,11 @@ $subject = 'Mail z webu ponnath.cz';
         $headers[] = 'Bcc: slehoferova@grafia.cz';
 
         // Mail it
-        mail($to, $subject, $body, implode("\r\n", $headers));        
+        $success = mail($to, $subject, $body, implode("\r\n", $headers));
+        if (!$success) {
+            return error_get_last()['message'];
+        } else {
+            return;
+        }       
     }
 }
