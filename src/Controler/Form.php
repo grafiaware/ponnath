@@ -33,7 +33,7 @@ class Form {
         $message = filter_var($post['message'],FILTER_SANITIZE_SPECIAL_CHARS);
         
 // Multiple recipients
-$to = 'svoboda@grafia.cz'; // více adres musí být odděleno čárkou
+$to = 'hanzikova.jaroslava@ponnath.cz'; // více adres musí být odděleno čárkou
 
 // Subject
 $subject = 'Mail z webu ponnath.cz';
@@ -74,7 +74,7 @@ $subject = 'Mail z webu ponnath.cz';
 //        $headers[] = 'To: Mary <mary@grafia.cz'; // více adres musí být odděleno čárkou
         $headers[] = 'From: Formulář kariéra KONTAKTNÍ FORMULÁŘ <web-ponnath-cz@ponnath.cz>';
         //$headers[] = 'Cc: birthdayarchive@example.com';
-        $headers[] = 'Bcc: slehoferova@grafia.cz';
+        $headers[] = 'Bcc: svoboda@grafia.cz';
 
         // Mail it
         $success = mail($to, $subject, $body, implode("\r\n", $headers));
@@ -89,7 +89,8 @@ $subject = 'Mail z webu ponnath.cz';
     }
     
     private function save($message) {
-        $logger = FileLogger::getInstance('/Logs/Mail', 'Mail.log', FileLogger::APPEND_TO_LOG);
+        FileLogger::setBaseLogsDirectory(__DIR__.'/../..');
+        $logger = FileLogger::getInstance('/_Logs/Mail', 'Mail.log', FileLogger::APPEND_TO_LOG);
         $logger->info($message);
     }
     

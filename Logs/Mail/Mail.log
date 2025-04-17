@@ -1,8 +1,8 @@
-debug | 2025-04-17 15:42:51 | Logger start. New log file created: C:\ApacheRoot\ponnath/Logs/Mail/Mail.log. 
-debug | 2025-04-17 15:42:51 | Mode 'append to existing log file'.
-info | 2025-04-17 15:42:51 | Mail z webu ponnath.cz
-info | 2025-04-17 15:42:51 | svoboda@grafia.cz
-info | 2025-04-17 15:42:51 | 
+debug | 2025-04-17 16:15:45 | Logger start. New log file created: C:/ApacheRoot/ponnath/src/Controler/../..//Logs/Mail/Mail.log. 
+debug | 2025-04-17 16:15:45 | Mode 'append to existing log file'.
+info | 2025-04-17 16:15:45 | Mail z webu ponnath.cz
+info | 2025-04-17 16:15:45 | svoboda@grafia.cz
+info | 2025-04-17 16:15:45 | 
             <!DOCTYPE html>
             <html lang="cs">
                 <head>
@@ -14,14 +14,14 @@ info | 2025-04-17 15:42:51 |
                 </head>
                 <body>
                     <h3>KONTAKTNÍ FORMULÁŘ</h3>
-                    <p><b>Jméno a příjmení:</b> zzz</p>
-                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) zz@dd</p>
-                    <p><b>Telefonní číslo:</b> 545454545454</p>
-                    <p><b>Bydliště:</b> uuuuuuuuuuuu 2</p>
-                    <p><b>Název pozice, o kterou máte zájem:</b> Asistent/ka marketingu</p>
-                    <p><b>Vaše zpráva (volitelně):</b> zzzzzzzzzzzzzzzzdfhd z  zz &#13;&#10;z &#13;&#10;z &#13;&#10;z &#13;&#10;z etzrtzrtuzuzut!!!&#13;&#10;+ěščřžýáíé=´</p>
+                    <p><b>Jméno a příjmení:</b>  eziru ziweruz</p>
+                    <p><b>E-mail:</b> werwewer@wqkewkej.bb</p>
+                    <p><b>Telefonní číslo:</b> 654655456</p>
+                    <p><b>Bydliště:</b> r rfrfuiohforh o</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
     
                 </body>
             </html>
                     
-info | 2025-04-17 15:42:51 | Success
+info | 2025-04-17 16:15:45 | Success
