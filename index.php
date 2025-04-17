@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 use Router\Router;
 use Controler\Page;
+use Controler\Form;
 
 include 'vendor/autoload.php';
 
@@ -26,6 +27,11 @@ $router->addRoute('GET', '/page/:name', function ($name) {
     $ctrl = new Page();
     return $ctrl->withTemplate($name);
 });
+$router->addRoute('POST', '/form/:name', function ($name) {
+    $ctrl = new Form();
+    return $ctrl->form($name);
+});
+
 
 try {
     $body = $router->dispatch(BASE_PATH);
