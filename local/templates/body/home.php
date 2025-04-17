@@ -3,12 +3,9 @@
     <?php include "menu/menu.php"; ?>
     <div class="ui fluid container">
         <header>
-            <video class="videoPC" autoplay muted loop playsinline style="width: 100%; height: auto;">
-                <source src="<?= $layoutVideo.'ponnath_video.mp4'?>" type="video/mp4">
-                Váš prohlížeč nepodporuje HTML5 video.
-            </video>
-            <video class="videoMobile" autoplay muted loop playsinline style="width: 100%; height: auto;">
-                <source src="<?= $layoutVideo.'ponnath_mobilevideo.mov'?>" type="video/mp4">
+            <video class="" autoplay muted loop playsinline style="width: 100%; height: auto;">
+                <source src="<?= $layoutVideo.'ponnath_video.webm'?>" type="video/mp4" media="(min-width: 768px)">
+                <source src="<?= $layoutVideo.'ponnath mobilevideo.webm'?>" type="video/mp4" media="(max-width: 767px)">
                 Váš prohlížeč nepodporuje HTML5 video.
             </video>
         </header>
