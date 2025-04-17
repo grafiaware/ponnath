@@ -46,6 +46,7 @@ header{
 nav{
     padding: 0.8rem 0 0.5rem;
     z-index: 102;
+    box-shadow: 0 .5rem 1rem @transparentBlack;
     .container > div, 
     .container > div > div{
         display: flex;
@@ -62,17 +63,15 @@ nav{
             text-decoration: none;
             transition: 0.3s all;
             &:hover{
-                background-color: darken(@linkColor, 3)
+                background-color: darken(@linkColor, 3);
             }
         }
     }
-    #open-menu, #open-menu2{
+    #open-menu, #open-menu2,#close-menu, #close-menu2{
         cursor: pointer;
-        
     }
     #close-menu, #close-menu2{ 
         display: none;
-        cursor: pointer;
     }
 }
 .navbar{

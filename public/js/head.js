@@ -1,32 +1,36 @@
 window.addEventListener('DOMContentLoaded', () => {
-const openBtn = document.getElementById('open-menu');
-const openBtn2 = document.getElementById('open-menu2');
-const closeBtn = document.getElementById('close-menu');
-const closeBtn2 = document.getElementById('close-menu2');
-const menu = document.getElementById('menu');
+  const openBtn = document.getElementById('open-menu');
+  const openBtn2 = document.getElementById('open-menu2');
+  const closeBtn = document.getElementById('close-menu');
+  const closeBtn2 = document.getElementById('close-menu2');
+  const menu = document.getElementById('menu');
 
-    openBtn.addEventListener('click', () => {
-      menu.classList.remove("hidden");
-      menu.classList.remove("hide");
-      openBtn.style.display = 'none';
-      closeBtn.style.display = 'block';
-  });
-    openBtn2.addEventListener('click', () => {
-      menu.classList.remove("hidden");
-      menu.classList.remove("hide");
-      openBtn2.style.display = 'none';
-      closeBtn2.style.display = 'block';
-  });
+  function openMenu() {
+    menu.classList.remove("hidden", "hide");
 
-    closeBtn.addEventListener('click', () => {
-      menu.classList.add("hide");
-      closeBtn.style.display = 'none';
-      openBtn.style.display = 'block';
-  });
-    closeBtn2.addEventListener('click', () => {
-      menu.classList.add("hide");
-      closeBtn2.style.display = 'none';
-      openBtn2.style.display = 'block';
-  });
+    // skryj obě "open" tlačítka
+    openBtn.style.display = 'none';
+    openBtn2.style.display = 'none';
 
+    // zobraz obě "close" tlačítka
+    closeBtn.style.display = 'block';
+    closeBtn2.style.display = 'block';
+  }
+
+  function closeMenu() {
+    menu.classList.add("hide");
+
+    // skryj obě "close" tlačítka
+    closeBtn.style.display = 'none';
+    closeBtn2.style.display = 'none';
+
+    // zobraz obě "open" tlačítka
+    openBtn.style.display = 'block';
+    openBtn2.style.display = 'block';
+  }
+
+  openBtn.addEventListener('click', openMenu);
+  openBtn2.addEventListener('click', openMenu);
+  closeBtn.addEventListener('click', closeMenu);
+  closeBtn2.addEventListener('click', closeMenu);
 });
