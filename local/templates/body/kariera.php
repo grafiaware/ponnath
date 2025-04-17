@@ -79,7 +79,7 @@
                         <div class="ui grid">
                             <div class="sixteen wide column">
                                 
-                                <form class="ui form" action="" method="POST">
+                                <form class="ui form" action="form/kariera" method="POST">
                                     <div class="two fields">
                                         <div class="required field">
                                             <label>Jméno a příjmení</label>
