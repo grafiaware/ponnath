@@ -5,7 +5,13 @@
     ?>
     <div class="ui fluid container">
         <header>
-            <img class="ui fluid image" src="<?= $layoutImages.'budovaS.webp'?>" alt="informace"/>
+            <picture>
+                      <source media="(max-width: 530px)" srcset="<?= $layoutImages.'budovas_mobil.webp'?>">
+                      <img 
+                            class="ui fluid image" 
+                            src="<?= $layoutImages.'budovas.webp'?>" 
+                            alt="budova">
+            </picture>
         </header>
     </div>
     <div class="ui container">
