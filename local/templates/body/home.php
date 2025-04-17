@@ -4,8 +4,8 @@
     <div class="ui fluid container">
         <header>
             <video class="" autoplay muted loop playsinline style="width: 100%; height: auto;">
-                <source src="<?= $layoutVideo.'ponnath_video.webm'?>" type="video/mp4" media="(min-width: 768px)">
-                <source src="<?= $layoutVideo.'ponnath mobilevideo.webm'?>" type="video/mp4" media="(max-width: 767px)">
+                <source src="<?= $layoutVideo.'ponnath_video.webm'?>" type="video/webm" media="(min-width: 768px)">
+                <source src="<?= $layoutVideo.'ponnath_mobilevideo.webm'?>" type="video/webm" media="(max-width: 767px)">
                 Váš prohlížeč nepodporuje HTML5 video.
             </video>
         </header>
@@ -20,7 +20,13 @@
                 </div>
                 <div class="sixteen wide column">
                     <h2 class="ui primary header center aligned">Naše zásady</h2>
-                    <img class="ui fluid image" src="<?= $layoutImages.'nase_hodnoty.webp'?>" alt="naše hodnoty"/>
+                    <picture>
+                      <source media="(max-width: 530px)" srcset="<?= $layoutImages.'nase_hodnoty_mobile.webp'?>">
+                      <img 
+                            class="ui fluid image" 
+                            src="<?= $layoutImages.'nase_hodnoty.webp'?>" 
+                            alt="naše hodnoty">
+                    </picture>
                 </div>
                 <div class="sixteen wide column">
                     <div class="ui basic segment center aligned">

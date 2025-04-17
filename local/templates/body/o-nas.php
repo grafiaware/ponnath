@@ -2,7 +2,13 @@
     <?php include "menu/menu.php"; ?>
     <div class="ui fluid container">
         <header>
-            <img class="ui fluid image" src="<?= $layoutImages.'talir_klobasy_2.webp'?>" alt="klobásky"/>
+            <picture>
+                      <source media="(max-width: 530px)" srcset="<?= $layoutImages.'talir_klobasy_mobil.webp'?>">
+                      <img 
+                            class="ui fluid image" 
+                            src="<?= $layoutImages.'talir_klobasy_2.webp'?>" 
+                            alt="klobasky">
+            </picture>
         </header>
     </div>
     <div class="ui container">
