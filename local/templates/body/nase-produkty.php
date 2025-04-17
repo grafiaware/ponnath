@@ -2,7 +2,13 @@
     <?php include "menu/menu.php"; ?>
     <div class="ui fluid container">
         <header>
-            <img class="ui fluid image" src="<?= $layoutImages.'nase_produkty.webp'?>" alt="nase produkty"/>
+            <picture>
+                      <source media="(max-width: 530px)" srcset="<?= $layoutImages.'nase_produkty_mobil.webp'?>">
+                      <img 
+                            class="ui fluid image" 
+                            src="<?= $layoutImages.'nase_produkty.webp'?>" 
+                            alt="nase produkty">
+            </picture>
         </header>
     </div>
     <div class="ui container">

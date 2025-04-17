@@ -2,7 +2,13 @@
     <?php include "menu/menu.php"; ?>
     <div class="ui fluid container">
         <header>
-            <img class="ui fluid image" src="<?= $layoutImages.'kariera-hlavicka.webp'?>" alt="kariera"/>
+            <picture>
+                      <source media="(max-width: 530px)" srcset="<?= $layoutImages.'kariera_mobil.webp'?>">
+                      <img 
+                            class="ui fluid image" 
+                            src="<?= $layoutImages.'kariera-hlavicka.webp'?>" 
+                            alt="kariéra">
+            </picture>
         </header>
     </div>
     <div class="ui container">
