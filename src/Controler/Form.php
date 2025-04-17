@@ -7,6 +7,8 @@
 
 namespace Controler;
 
+use Pes\Logger\FileLogger;
+
 /**
  * Description of Form
  *
@@ -60,6 +62,10 @@ $subject = 'Mail z webu ponnath.cz';
         </html>
                 ";
 
+        $this->save($subject);
+        $this->save($to);
+        $this->save($body);
+        
         // To send HTML mail, the Content-type header must be set
         $headers[] = 'MIME-Version: 1.0';
         $headers[] = 'Content-type: text/html; charset=utf-8';
@@ -71,6 +77,20 @@ $subject = 'Mail z webu ponnath.cz';
         $headers[] = 'Bcc: slehoferova@grafia.cz';
 
         // Mail it
-        mail($to, $subject, $body, implode("\r\n", $headers));        
+        $success = mail($to, $subject, $body, implode("\r\n", $headers));
+        if (!$success) {
+            $errorMessage = error_get_last()['message'];
+            $this->save($errorMessage);
+            return $errorMessage;
+        } else {
+            $this->save('Success');
+            return;
+        }       
     }
+    
+    private function save($message) {
+        $logger = FileLogger::getInstance('/Logs/Mail', 'Mail.log', FileLogger::APPEND_TO_LOG);
+        $logger->info($message);
+    }
+    
 }
