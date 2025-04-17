@@ -20,7 +20,13 @@
                 </div>
                 <div class="sixteen wide column">
                     <h2 class="ui primary header center aligned">Naše zásady</h2>
-                    <img class="ui fluid image" src="<?= $layoutImages.'nase_hodnoty.webp'?>" alt="naše hodnoty"/>
+                    <picture>
+                      <source media="(max-width: 530px)" srcset="<?= $layoutImages.'nase_hodnoty_mobile.webp'?>">
+                      <img 
+                            class="ui fluid image" 
+                            src="<?= $layoutImages.'nase_hodnoty.webp'?>" 
+                            alt="naše hodnoty">
+                    </picture>
                 </div>
                 <div class="sixteen wide column">
                     <div class="ui basic segment center aligned">
