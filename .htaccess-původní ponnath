@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^kariera$ https://www.ponnath.de/cz/kariera/ [L,QSA]
+RewriteRule ^vzdelani$ https://www.ponnath.de/cz/vzdelani/ [L,QSA]
+
+RewriteRule (.*) http://www.ponnath.de/cz/
