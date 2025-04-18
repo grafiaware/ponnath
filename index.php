@@ -32,6 +32,7 @@ $router->addRoute('POST', '/form/:name', function ($name) {
     return $ctrl->form($name);
 });
 
+session_start();  // jen pro flash
 
 try {
     $body = $router->dispatch(BASE_PATH);

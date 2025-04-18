@@ -14,16 +14,21 @@ $bodyTemplate;
     <head>
         <base href="<?= $basePath ?>">
         <title><?= $title ?></title>
-        <?php include "head/meta.php"; ?>
-        <?php include "head/links.php"; ?>
-        <?php include "head/scripts.php"; ?>
+        <?php 
+        include "head/meta.php";
+        include "head/links.php";
+        include "head/scripts.php";
+        ?>
     </head>
     <body class="layout">
-        <?php include "body/$bodyTemplate.php"; ?>
-        <?php include "body/paticka.php"; ?>
-        <?php //include "body/paticka/kontakt.php"; ?>
-        <?php //include "body/paticka/gdpr.php"; ?>
-        <?php //include "body/paticka/vzor.php"; ?>        
-        <?php include "body/scripts.php"; ?>
+        <?php 
+        include "body/flash/flashMessages.php";
+        include "body/$bodyTemplate.php";
+        include "body/paticka.php";
+        //include "body/paticka/kontakt.php";
+        //include "body/paticka/gdpr.php";
+        //include "body/paticka/vzor.php"; 
+        include "body/scripts.php";
+        ?>
     </body>
 </html>

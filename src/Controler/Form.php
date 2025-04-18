@@ -1,10 +1,4 @@
 <?php
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/PHPClass.php to edit this template
- */
-
 namespace Controler;
 
 use Pes\Logger\FileLogger;
@@ -23,6 +17,7 @@ class Form {
     
     private function kariera($post) {
         ini_set ("SMTP","posta.grafia.cz");
+//        ini_set ("SMTP","localhost");
         ini_set ("sendmail_from","web-ponnath-cz@ponnath.cz");
         $name = filter_var($post['name'],FILTER_SANITIZE_SPECIAL_CHARS);
         $emailValidated = filter_var($post['email'], FILTER_VALIDATE_EMAIL);
@@ -33,7 +28,9 @@ class Form {
         $message = filter_var($post['message'],FILTER_SANITIZE_SPECIAL_CHARS);
         
 // Multiple recipients
-$to = 'hanzikova.jaroslava@ponnath.cz'; // více adres musí být odděleno čárkou
+//$to = 'hanzikova.jaroslava@ponnath.cz'; // více adres musí být odděleno čárkou
+//$to = 'svoboda@grafia.cz'; // více adres musí být odděleno čárkou
+$to = 'slehoferova@grafia.cz'; // více adres musí být odděleno čárkou
 
 // Subject
 $subject = 'Mail z webu ponnath.cz';
@@ -71,20 +68,29 @@ $subject = 'Mail z webu ponnath.cz';
         $headers[] = 'Content-type: text/html; charset=utf-8';
 
         // Additional headers
-//        $headers[] = 'To: Mary <mary@grafia.cz'; // více adres musí být odděleno čárkou
+//        $headers[] = 'To: Mary <mary@grafia.cz>'; // více adres musí být odděleno čárkou
         $headers[] = 'From: Formulář kariéra KONTAKTNÍ FORMULÁŘ <web-ponnath-cz@ponnath.cz>';
         //$headers[] = 'Cc: birthdayarchive@example.com';
         $headers[] = 'Bcc: svoboda@grafia.cz';
 
         // Mail it
-        $success = mail($to, $subject, $body, implode("\r\n", $headers));
+        if (isset($post['test']) && $post['test']=="testovací data") {
+            $success = true;
+        } else {
+            $success = mail($to, $subject, $body, implode("\r\n", $headers));
+        }
+        
+        
         if (!$success) {
             $errorMessage = error_get_last()['message'];
             $this->save($errorMessage);
             return $errorMessage;
         } else {
             $this->save('Success');
-            return;
+            $_SESSION['flash'][] = 'Mail odeslán';
+            header('Location: '.BASE_PATH.'page/kariera');
+            exit;
+//            return;
         }       
     }
     
