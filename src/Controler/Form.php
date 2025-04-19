@@ -42,7 +42,8 @@ class Form {
             $to = 'svoboda@grafia.cz'; // více adres musí být odděleno čárkou
 
         } else {
-            $to = 'hanzikova.jaroslava@ponnath.cz'; // více adres musí být odděleno čárkou    
+            $to = 'svoboda@grafia.cz'; // více adres musí být odděleno čárkou
+            //$to = 'hanzikova.jaroslava@ponnath.cz'; // více adres musí být odděleno čárkou    
         }
 
         // Subject
@@ -84,7 +85,7 @@ class Form {
 //        $headers[] = 'To: Mary <mary@grafia.cz>'; // více adres musí být odděleno čárkou
         $headers[] = 'From: Formulář kariéra KONTAKTNÍ FORMULÁŘ <web-ponnath-cz@ponnath.cz>';
         //$headers[] = 'Cc: birthdayarchive@example.com';
-        $headers[] = 'Bcc: svoboda@grafia.cz';
+//        $headers[] = 'Bcc: svoboda@grafia.cz';
 
         // Mail it
         if (DEVELOPMENT && isset($post['test']) && $post['test']=="testovací data") {
