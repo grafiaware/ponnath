@@ -15,6 +15,16 @@ class Form {
         return $this->$name($post);
     }
     
+    /**
+     * Přijme proměnné fomuláře kariéra, odešle je e-mailem, zapíše obsah mailu do logu, přesměruje na GET kariéra.
+     * Nevrací nic, končí exit (POST REDIRECT GET).
+     * 
+     * Pokud dojde k chybě při pokusu o odeslání mailu, loguje chybu a nevrací nic, končí také PRG. Jen pokud je nastavena konstanta DEVELOPMENT na true pošle také flash obsahující chybové hlášení.
+     * 
+     * Pokud je nastavená konstanta DEVELOPMENT na true - zjišťuje jestli nebyla data formuláře odeslána se skrytým polem 'test' - pokud ano, neposílá mail, jen loguje připravená data mailu a pošle flash
+     * 
+     * @param type $post
+     */
     private function kariera($post) {
         ini_set ("SMTP","posta.grafia.cz");
 //        ini_set ("SMTP","localhost");
@@ -27,15 +37,18 @@ class Form {
         $job = filter_var($post['job'],FILTER_SANITIZE_SPECIAL_CHARS);
         $message = filter_var($post['message'],FILTER_SANITIZE_SPECIAL_CHARS);
         
-// Multiple recipients
-//$to = 'hanzikova.jaroslava@ponnath.cz'; // více adres musí být odděleno čárkou
-//$to = 'svoboda@grafia.cz'; // více adres musí být odděleno čárkou
-$to = 'slehoferova@grafia.cz'; // více adres musí být odděleno čárkou
+        // Multiple recipients
+        if (DEVELOPMENT) {
+            $to = 'svoboda@grafia.cz'; // více adres musí být odděleno čárkou
 
-// Subject
-$subject = 'Mail z webu ponnath.cz';
+        } else {
+            $to = 'hanzikova.jaroslava@ponnath.cz'; // více adres musí být odděleno čárkou    
+        }
 
-// Message
+        // Subject
+        $subject = 'Mail z webu ponnath.cz';
+
+        // Message
         $body = "
         <!DOCTYPE html>
         <html lang=\"cs\">
@@ -74,8 +87,8 @@ $subject = 'Mail z webu ponnath.cz';
         $headers[] = 'Bcc: svoboda@grafia.cz';
 
         // Mail it
-        if (isset($post['test']) && $post['test']=="testovací data") {
-            $success = true;
+        if (DEVELOPMENT && isset($post['test']) && $post['test']=="testovací data") {
+            $success = true;    // jen loguje a pošle flash
         } else {
             $success = mail($to, $subject, $body, implode("\r\n", $headers));
         }
@@ -84,14 +97,17 @@ $subject = 'Mail z webu ponnath.cz';
         if (!$success) {
             $errorMessage = error_get_last()['message'];
             $this->save($errorMessage);
-            return $errorMessage;
+            if (DEVELOPMENT) {
+                $_SESSION['flash'][] = "Mail error: $errorMessage";                
+            }
         } else {
             $this->save('Success');
             $_SESSION['flash'][] = 'Mail odeslán';
-            header('Location: '.BASE_PATH.'page/kariera');
-            exit;
-//            return;
-        }       
+        }
+        
+        // PRG
+        header('Location: '.BASE_PATH.'page/kariera');
+        exit;
     }
     
     private function save($message) {
