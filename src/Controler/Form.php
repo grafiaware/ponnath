@@ -73,8 +73,8 @@ class Form {
         </html>
                 ";
 
-        $this->save($subject);
-        $this->save($to);
+        $this->save("Subject: $subject");
+        $this->save("To: $to");
         $this->save($body);
         
         // To send HTML mail, the Content-type header must be set

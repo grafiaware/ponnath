@@ -650,3 +650,28 @@ info | 2025-04-19 16:48:50 |
             </html>
                     
 info | 2025-04-19 16:49:33 | mail(): SMTP server response: 550 5.7.0 Your server IP address is in the SpamHaus SBL-XBL database, bye
+info | 2025-04-19 22:14:37 | Mail z webu ponnath.cz
+info | 2025-04-19 22:14:39 | svoboda@grafia.cz
+info | 2025-04-19 22:14:39 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> cbvcbvc</p>
+                    <p><b>E-mail:</b> bb@bb.nn</p>
+                    <p><b>Telefonní číslo:</b> 3221322333</p>
+                    <p><b>Bydliště:</b> dssfdf 33</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Výrobní pracovníci – narážka, udírny, balení</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 22:16:03 | mail(): SMTP server response: 550 5.7.0 Your server IP address is in the SpamHaus SBL-XBL database, bye
