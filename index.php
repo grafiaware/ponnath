@@ -10,7 +10,7 @@ include 'vendor/autoload.php';
 // kontanty
 define('PROJECT_PATH', str_replace("\\", "/", preg_replace('/^'.preg_quote($_SERVER['DOCUMENT_ROOT'], '/') . '/', '', __DIR__))."/");
 
-const DEVELOPMENT = true;// false;
+const DEVELOPMENT = false; // true;// false;
 const BASE_PATH = "/";  // musí začínat a končit / (nebo jen jedno "/")
 
 // router
