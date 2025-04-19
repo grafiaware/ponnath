@@ -26,8 +26,8 @@ class Form {
      * @param type $post
      */
     private function kariera($post) {
-//        ini_set ("SMTP","posta.grafia.cz");
-        ini_set ("SMTP","localhost");
+        ini_set ("SMTP","posta.grafia.cz");
+//        ini_set ("SMTP","localhost");
         ini_set ("sendmail_from","web-ponnath-cz@ponnath.cz");
         $name = filter_var($post['name'],FILTER_SANITIZE_SPECIAL_CHARS);
         $emailValidated = filter_var($post['email'], FILTER_VALIDATE_EMAIL);
@@ -42,7 +42,8 @@ class Form {
             $to = 'svoboda@grafia.cz'; // více adres musí být odděleno čárkou
 
         } else {
-            $to = 'hanzikova.jaroslava@ponnath.cz'; // více adres musí být odděleno čárkou    
+            $to = 'svoboda@grafia.cz'; // více adres musí být odděleno čárkou
+//            $to = 'hanzikova.jaroslava@ponnath.cz'; // více adres musí být odděleno čárkou    
         }
 
         // Subject
@@ -81,28 +82,29 @@ class Form {
         $headers[] = 'Content-type: text/html; charset=utf-8';
 
         // Additional headers
+        // Multiple extra headers should be separated with a CRLF (\r\n)
 //        $headers[] = 'To: Mary <mary@grafia.cz>'; // více adres musí být odděleno čárkou
         $headers[] = 'From: Formulář kariéra KONTAKTNÍ FORMULÁŘ <web-ponnath-cz@ponnath.cz>';
         //$headers[] = 'Cc: birthdayarchive@example.com';
         $headers[] = 'Bcc: svoboda@grafia.cz';
 
         // Mail it
-        if (DEVELOPMENT && isset($post['test']) && $post['test']=="testovací data") {
-            $success = true;    // jen loguje a pošle flash
+        $isTest = DEVELOPMENT && isset($post['test']) && $post['test']=="testovací data";
+        if ($isTest) {
+            $this->save('Test success');
+            $_SESSION['flash'][] = 'Mail test proběhl.';            
         } else {
             $success = mail($to, $subject, $body, implode("\r\n", $headers));
-        }
-        
-        
-        if (!$success) {
-            $errorMessage = error_get_last()['message'];
-            $this->save($errorMessage);
-            if (DEVELOPMENT) {
-                $_SESSION['flash'][] = "Mail error: $errorMessage";                
+            if (!$success) {
+                $errorMessage = error_get_last()['message'];
+                $this->save($errorMessage);
+                if (DEVELOPMENT) {
+                    $_SESSION['flash'][] = "Mail error: $errorMessage";                
+                }
+            } else {
+                $this->save('Success');
+                $_SESSION['flash'][] = 'Mail odeslán';
             }
-        } else {
-            $this->save('Success');
-            $_SESSION['flash'][] = 'Mail odeslán';
         }
         
         // PRG

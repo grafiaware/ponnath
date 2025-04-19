@@ -600,3 +600,53 @@ info | 2025-04-19 11:31:58 |
             </html>
                     
 info | 2025-04-19 11:31:58 | Success
+info | 2025-04-19 16:44:42 | Mail z webu ponnath.cz
+info | 2025-04-19 16:44:42 | svoboda@grafia.cz
+info | 2025-04-19 16:44:42 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 16:44:49 | Test success
+info | 2025-04-19 16:48:50 | Mail z webu ponnath.cz
+info | 2025-04-19 16:48:50 | svoboda@grafia.cz
+info | 2025-04-19 16:48:50 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> rtertert</p>
+                    <p><b>E-mail:</b> rtrt@gdfdf.bb</p>
+                    <p><b>Telefonní číslo:</b> 65465465654</p>
+                    <p><b>Bydliště:</b> sddsfasd</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 16:49:33 | mail(): SMTP server response: 550 5.7.0 Your server IP address is in the SpamHaus SBL-XBL database, bye
