@@ -26,8 +26,8 @@ class Form {
      * @param type $post
      */
     private function kariera($post) {
-        ini_set ("SMTP","posta.grafia.cz");
-//        ini_set ("SMTP","localhost");
+//        ini_set ("SMTP","posta.grafia.cz");
+        ini_set ("SMTP","localhost");
         ini_set ("sendmail_from","web-ponnath-cz@ponnath.cz");
         $name = filter_var($post['name'],FILTER_SANITIZE_SPECIAL_CHARS);
         $emailValidated = filter_var($post['email'], FILTER_VALIDATE_EMAIL);
