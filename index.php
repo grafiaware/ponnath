@@ -8,12 +8,10 @@ use Controler\Form;
 include 'vendor/autoload.php';
 
 // kontanty
-const DEVELOPMENT = true;// false;
-const BASE_PATH = "/";  // musí začínat a končit / (nebo jen jedno "/")
 define('PROJECT_PATH', str_replace("\\", "/", preg_replace('/^'.preg_quote($_SERVER['DOCUMENT_ROOT'], '/') . '/', '', __DIR__))."/");
 
-$router = new Router();
-
+const DEVELOPMENT = true;// false;
+const BASE_PATH = "/";  // musí začínat a končit / (nebo jen jedno "/")
 
 // router
 $router = new Router();
