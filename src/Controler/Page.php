@@ -19,9 +19,16 @@ class Page {
         'layoutImages' => 'public/img/',
         'layoutVideo' => 'public/video/',
         'layoutFiles' => 'public/files/',
+        'flashMessages' => $this->getFlashMessages(),
         'bodyTemplate' => $templateName,
         ];
         $includer = new Includer();
         return $includer->protectedIncludeScope("local/templates/layout.php", $context);
+    }
+    
+    private function getFlashMessages() {
+        $messages = isset($_SESSION['flash']) ? $_SESSION['flash'] : [];
+        unset($_SESSION['flash']);
+        return $messages;
     }
 }

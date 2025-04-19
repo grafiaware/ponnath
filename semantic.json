@@ -19,6 +19,6 @@
   "permission": false,
   "autoInstall": false,
   "rtl": false,
-  "components": ["reset", "site", "button", "container", "divider", "header", "icon", "image", "input", "label", "list", "segment", "form", "grid", "menu", "table", "card", "item", "accordion", "checkbox", "dropdown", "placeholder", "search", "sticky", "transition", "api", "form", "state", "visibility"],
+  "components": ["reset", "site", "button", "container", "divider", "header", "icon", "image", "input", "label", "list", "segment", "form", "grid", "menu", "table", "card", "item", "accordion", "toast", "checkbox", "dropdown", "placeholder", "search", "sticky", "transition", "api", "form", "state", "visibility"],
   "version": "2.9.4"
 }

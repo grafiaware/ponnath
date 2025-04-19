@@ -1,0 +1,602 @@
+debug | 2025-04-18 23:10:06 | Logger start. New log file created: C:/ApacheRoot/ponnath/src/Controler/../..//_Logs/Mail/Mail.log. 
+debug | 2025-04-18 23:10:06 | Mode 'append to existing log file'.
+info | 2025-04-18 23:10:06 | Mail z webu ponnath.cz
+info | 2025-04-18 23:10:06 | svoboda@grafia.cz
+info | 2025-04-18 23:10:06 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> dfgd</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) gg@fgfdfg</p>
+                    <p><b>Telefonní číslo:</b> 66455454545</p>
+                    <p><b>Bydliště:</b> dfgdf</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Asistent/ka marketingu</p>
+                    <p><b>Vaše zpráva (volitelně):</b> dfgdfgd gg dfg df &#13;&#10; ztgzzjh</p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:10:06 | Success
+info | 2025-04-18 23:10:45 | Mail z webu ponnath.cz
+info | 2025-04-18 23:10:45 | svoboda@grafia.cz
+info | 2025-04-18 23:10:45 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> dfgd</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) gg@fgfdfg</p>
+                    <p><b>Telefonní číslo:</b> 66455454545</p>
+                    <p><b>Bydliště:</b> dfgdf</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Asistent/ka marketingu</p>
+                    <p><b>Vaše zpráva (volitelně):</b> dfgdfgd gg dfg df &#13;&#10; ztgzzjh</p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:10:45 | Success
+info | 2025-04-18 23:11:08 | Mail z webu ponnath.cz
+info | 2025-04-18 23:11:08 | svoboda@grafia.cz
+info | 2025-04-18 23:11:08 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> dfgd</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) gg@fgfdfg</p>
+                    <p><b>Telefonní číslo:</b> 66455454545</p>
+                    <p><b>Bydliště:</b> dfgdf</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Asistent/ka marketingu</p>
+                    <p><b>Vaše zpráva (volitelně):</b> dfgdfgd gg dfg df &#13;&#10; ztgzzjh</p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:11:08 | Success
+info | 2025-04-18 23:12:55 | Mail z webu ponnath.cz
+info | 2025-04-18 23:12:55 | svoboda@grafia.cz
+info | 2025-04-18 23:12:55 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> dfgd</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) gg@fgfdfg</p>
+                    <p><b>Telefonní číslo:</b> 66455454545</p>
+                    <p><b>Bydliště:</b> dfgdf</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Asistent/ka marketingu</p>
+                    <p><b>Vaše zpráva (volitelně):</b> dfgdfgd gg dfg df &#13;&#10; ztgzzjh</p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:12:55 | Success
+info | 2025-04-18 23:18:26 | Mail z webu ponnath.cz
+info | 2025-04-18 23:18:26 | svoboda@grafia.cz
+info | 2025-04-18 23:18:26 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> dfgd</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) gg@fgfdfg</p>
+                    <p><b>Telefonní číslo:</b> 66455454545</p>
+                    <p><b>Bydliště:</b> dfgdf</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Asistent/ka marketingu</p>
+                    <p><b>Vaše zpráva (volitelně):</b> dfgdfgd gg dfg df &#13;&#10; ztgzzjh</p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:18:26 | Success
+info | 2025-04-18 23:19:51 | Mail z webu ponnath.cz
+info | 2025-04-18 23:19:51 | svoboda@grafia.cz
+info | 2025-04-18 23:19:51 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> dfgd</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) gg@fgfdfg</p>
+                    <p><b>Telefonní číslo:</b> 66455454545</p>
+                    <p><b>Bydliště:</b> dfgdf</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Asistent/ka marketingu</p>
+                    <p><b>Vaše zpráva (volitelně):</b> dfgdfgd gg dfg df &#13;&#10; ztgzzjh</p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:19:52 | Success
+info | 2025-04-18 23:20:48 | Mail z webu ponnath.cz
+info | 2025-04-18 23:20:48 | svoboda@grafia.cz
+info | 2025-04-18 23:20:48 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> wer</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) werewr{sfsdf@ůlsdk</p>
+                    <p><b>Telefonní číslo:</b> 5757575785</p>
+                    <p><b>Bydliště:</b> 887578</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Výrobní pracovníci – narážka, udírny, balení</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:20:48 | Success
+info | 2025-04-18 23:26:14 | Mail z webu ponnath.cz
+info | 2025-04-18 23:26:14 | svoboda@grafia.cz
+info | 2025-04-18 23:26:14 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> ezztrz</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) rtz@ter</p>
+                    <p><b>Telefonní číslo:</b> 656566664</p>
+                    <p><b>Bydliště:</b> ertert</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Výrobní pracovníci – narážka, udírny, balení</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:26:14 | Success
+info | 2025-04-18 23:30:27 | Mail z webu ponnath.cz
+info | 2025-04-18 23:30:27 | svoboda@grafia.cz
+info | 2025-04-18 23:30:27 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> čšřščř</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) errrt@slksdj</p>
+                    <p><b>Telefonní číslo:</b> 665654654654654</p>
+                    <p><b>Bydliště:</b> retret</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Výrobní pracovníci – narážka, udírny, balení</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:30:27 | Success
+info | 2025-04-18 23:38:16 | Mail z webu ponnath.cz
+info | 2025-04-18 23:38:16 | svoboda@grafia.cz
+info | 2025-04-18 23:38:16 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> rtzer</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) rtz@lkdfj</p>
+                    <p><b>Telefonní číslo:</b> 6546565444</p>
+                    <p><b>Bydliště:</b> ghfghf</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Výrobní pracovníci – narážka, udírny, balení</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:38:16 | Success
+info | 2025-04-18 23:43:05 | Mail z webu ponnath.cz
+info | 2025-04-18 23:43:05 | svoboda@grafia.cz
+info | 2025-04-18 23:43:05 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> uturtu</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) uuu@dkj</p>
+                    <p><b>Telefonní číslo:</b> 6565665465465</p>
+                    <p><b>Bydliště:</b> sdfsdf</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Výrobní pracovníci – narážka, udírny, balení</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:43:05 | Success
+info | 2025-04-18 23:45:46 | Mail z webu ponnath.cz
+info | 2025-04-18 23:45:46 | svoboda@grafia.cz
+info | 2025-04-18 23:45:46 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> řžžřžýžý</p>
+                    <p><b>E-mail:</b> (UPOZORNĚNÍ! Byl zadán chybný e-mail) gh@kfkfd</p>
+                    <p><b>Telefonní číslo:</b> 656566646954</p>
+                    <p><b>Bydliště:</b> dsfsdf</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Výrobní pracovníci – narážka, udírny, balení</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:45:46 | Success
+info | 2025-04-18 23:59:29 | Mail z webu ponnath.cz
+info | 2025-04-18 23:59:29 | svoboda@grafia.cz
+info | 2025-04-18 23:59:29 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-18 23:59:29 | Success
+info | 2025-04-19 00:03:55 | Mail z webu ponnath.cz
+info | 2025-04-19 00:03:55 | slehoferova@grafia.cz
+info | 2025-04-19 00:03:55 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 00:04:03 | mail(): SMTP server response: 550 5.7.0 Your server IP address is in the SpamHaus SBL-XBL database, bye
+info | 2025-04-19 00:12:53 | Mail z webu ponnath.cz
+info | 2025-04-19 00:12:53 | slehoferova@grafia.cz
+info | 2025-04-19 00:12:53 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 00:13:02 | mail(): SMTP server response: 550 5.7.0 Your server IP address is in the SpamHaus SBL-XBL database, bye
+info | 2025-04-19 00:14:26 | Mail z webu ponnath.cz
+info | 2025-04-19 00:14:26 | slehoferova@grafia.cz
+info | 2025-04-19 00:14:26 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 00:14:32 | Success
+info | 2025-04-19 10:04:19 | Mail z webu ponnath.cz
+info | 2025-04-19 10:04:19 | slehoferova@grafia.cz
+info | 2025-04-19 10:04:19 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 10:04:19 | Success
+info | 2025-04-19 10:12:16 | Mail z webu ponnath.cz
+info | 2025-04-19 10:12:16 | slehoferova@grafia.cz
+info | 2025-04-19 10:12:16 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 10:12:16 | Success
+info | 2025-04-19 10:12:48 | Mail z webu ponnath.cz
+info | 2025-04-19 10:12:48 | slehoferova@grafia.cz
+info | 2025-04-19 10:12:48 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 10:12:48 | Success
+info | 2025-04-19 10:12:56 | Mail z webu ponnath.cz
+info | 2025-04-19 10:12:56 | slehoferova@grafia.cz
+info | 2025-04-19 10:12:56 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 10:12:56 | Success
+info | 2025-04-19 10:15:39 | Mail z webu ponnath.cz
+info | 2025-04-19 10:15:39 | slehoferova@grafia.cz
+info | 2025-04-19 10:15:39 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 10:15:39 | Success
+info | 2025-04-19 10:29:23 | Mail z webu ponnath.cz
+info | 2025-04-19 10:29:23 | slehoferova@grafia.cz
+info | 2025-04-19 10:29:23 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 10:29:23 | Success
+info | 2025-04-19 11:30:04 | Mail z webu ponnath.cz
+info | 2025-04-19 11:30:04 | slehoferova@grafia.cz
+info | 2025-04-19 11:30:04 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 11:30:04 | Success
+info | 2025-04-19 11:31:58 | Mail z webu ponnath.cz
+info | 2025-04-19 11:31:58 | slehoferova@grafia.cz
+info | 2025-04-19 11:31:58 | 
+            <!DOCTYPE html>
+            <html lang="cs">
+                <head>
+                    <title>Zpráva z webu ponnath.cz</title>
+                    <meta charset="UTF-8">
+                    <style type="text/css">html {height:100%;} html, 
+                                 body {width:100%;min-height:100%;}
+                    </style>
+                </head>
+                <body>
+                    <h3>KONTAKTNÍ FORMULÁŘ</h3>
+                    <p><b>Jméno a příjmení:</b> Jan Novák</p>
+                    <p><b>E-mail:</b> mail@example.cz</p>
+                    <p><b>Telefonní číslo:</b> 777888555</p>
+                    <p><b>Bydliště:</b> Ulice 123, Město 100 00</p>
+                    <p><b>Název pozice, o kterou máte zájem:</b> Řídící pracovníci na oddělení narážek</p>
+                    <p><b>Vaše zpráva (volitelně):</b> </p>
+    
+                </body>
+            </html>
+                    
+info | 2025-04-19 11:31:58 | Success

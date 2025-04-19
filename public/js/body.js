@@ -1,4 +1,8 @@
 $('.ui.tree.accordion').accordion(); 
+$('.flashtoast')
+    .toast({
+        displayTime: 5000
+    });
 
 const navbar = document.querySelector(".navbar");
 const navbarSticky = document.querySelector(".navbar-sticking");

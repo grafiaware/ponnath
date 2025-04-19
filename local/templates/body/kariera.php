@@ -99,7 +99,7 @@
                                     <div class="two fields">
                                         <div class="required field">
                                             <label>Telefonní číslo</label>
-                                            <input type="tel" name="phone" placeholder="+420 777 888 555" pattern="^[0-9]{9,18}$" required>
+                                            <input type="tel" name="phone" placeholder="777888555" pattern="^[0-9]{9,18}$" required>
                                         </div>
                                         <div class="required field">
                                             <label>Bydliště</label>
@@ -123,6 +123,11 @@
                                         <button type="submit" class="ui primary button">Odeslat</button>
                                     </div>
                                 </form>
+                                <?php
+                                    if(DEVELOPMENT) {
+                                        include 'kariera/test.php';  // přidá formulář s daty pro odeslání testovacích dat
+                                    }
+                                ?>
                             </div>
                         </div>
                     </div>
