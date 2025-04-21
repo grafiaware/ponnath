@@ -3,12 +3,24 @@ namespace Controler;
 
 use Pes\Logger\FileLogger;
 
+use Env\Configuration;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception as PhpMaileException;
+
 /**
  * Description of Form
  *
  * @author pes2704
  */
 class Form {
+    
+    const MAIL_CC_ARRAY = [];  // carbon copy
+    const MAIL_BCC_ARRAY = [];  // blind carbon copy
+    
+    private $mailDebug = '';
+    private $mailErrorInfo = '';
+
     public function form($name) {
         $post = $_POST;
         
@@ -19,19 +31,18 @@ class Form {
      * Přijme proměnné fomuláře kariéra, odešle je e-mailem, zapíše obsah mailu do logu, přesměruje na GET kariéra.
      * Nevrací nic, končí exit (POST REDIRECT GET).
      * 
-     * Pokud dojde k chybě při pokusu o odeslání mailu, loguje chybu a nevrací nic, končí také PRG. Jen pokud je nastavena konstanta DEVELOPMENT na true pošle také flash obsahující chybové hlášení.
+     * Pokud dojde k chybě při pokusu o odeslání mailu, loguje chybu a nevrací nic, končí také PRG. Jen pokud je nastavena 
+     * konstanta DEVELOPMENT na true pošle také flash obsahující chybové hlášení.
      * 
-     * Pokud je nastavená konstanta DEVELOPMENT na true - zjišťuje jestli nebyla data formuláře odeslána se skrytým polem 'test' - pokud ano, neposílá mail, jen loguje připravená data mailu a pošle flash
+     * Pokud je nastavená konstanta DEVELOPMENT na true - zjišťuje jestli nebyla data formuláře odeslána se skrytým 
+     * polem 'test' - pokud ano, neposílá mail, jen loguje připravená data mailu a pošle flash
      * 
      * @param type $post
      */
     private function kariera($post) {
-        ini_set ("SMTP","posta.grafia.cz");
-//        ini_set ("SMTP","localhost");
-        ini_set ("sendmail_from","web-ponnath-cz@ponnath.cz");
         $name = filter_var($post['name'],FILTER_SANITIZE_SPECIAL_CHARS);
         $emailValidated = filter_var($post['email'], FILTER_VALIDATE_EMAIL);
-        $email = $emailValidated===false ? "(UPOZORNĚNÍ! Byl zadán chybný e-mail) ".$post['email'] : $emailValidated;
+        $email = $emailValidated===false ? "(UPOZORNĚNÍ! Návětšvník webu zadal chybný e-mail) ".$post['email'] : $emailValidated;
         $phone = filter_var($post['phone'],FILTER_SANITIZE_SPECIAL_CHARS);
         $address = filter_var($post['address'],FILTER_SANITIZE_SPECIAL_CHARS);
         $job = filter_var($post['job'],FILTER_SANITIZE_SPECIAL_CHARS);
@@ -39,17 +50,16 @@ class Form {
         
         // Multiple recipients
         if (DEVELOPMENT) {
-            $to = 'svoboda@grafia.cz'; // více adres musí být odděleno čárkou
-
+            $toArray = ['svoboda@grafia.cz', 'Péťa'];
         } else {
-            $to = 'svoboda@grafia.cz'; // více adres musí být odděleno čárkou
-//            $to = 'hanzikova.jaroslava@ponnath.cz'; // více adres musí být odděleno čárkou    
+            $toArray = ['svoboda@grafia.cz', 'Péťa'];
+//            $toArray = ['hanzikova.jaroslava@ponnath.cz', 'Hanzíková Jaroslava'];
         }
-
+        $fromArray = ['web-ponnath-cz@ponnath.cz', 'Kariéra - KONTAKTNÍ FORMULÁŘ'];
         // Subject
         $subject = 'Mail z webu ponnath.cz';
 
-        // Message
+        // Body
         $body = "
         <!DOCTYPE html>
         <html lang=\"cs\">
@@ -74,42 +84,77 @@ class Form {
                 ";
 
         $this->save("Subject: $subject");
-        $this->save("To: $to");
+        $this->save("From: $fromArray[1].$fromArray[0]");
+        $this->save("To: $toArray[1].$toArray[0]");
         $this->save($body);
-        
-        // To send HTML mail, the Content-type header must be set
-        $headers[] = 'MIME-Version: 1.0';
-        $headers[] = 'Content-type: text/html; charset=utf-8';
-
-        // Additional headers
-        // Multiple extra headers should be separated with a CRLF (\r\n)
-//        $headers[] = 'To: Mary <mary@grafia.cz>'; // více adres musí být odděleno čárkou
-        $headers[] = 'From: Formulář kariéra KONTAKTNÍ FORMULÁŘ <web-ponnath-cz@ponnath.cz>';
-        //$headers[] = 'Cc: birthdayarchive@example.com';
-        $headers[] = 'Bcc: svoboda@grafia.cz';
 
         // Mail it
         $isTest = DEVELOPMENT && isset($post['test']) && $post['test']=="testovací data";
         if ($isTest) {
             $this->save('Test success');
-            $_SESSION['flash'][] = 'Mail test proběhl.';            
+            $_SESSION['flash'][] = 'Mail test proběhl bez odeslání mailu.';            
         } else {
-            $success = mail($to, $subject, $body, implode("\r\n", $headers));
-            if (!$success) {
-                $errorMessage = error_get_last()['message'];
+            try {
+                $this->send($fromArray, $toArray, $subject, $body);
+                $this->save('Success');
+                $_SESSION['flash'][] = 'Mail odeslán';
+            } catch (PhpMaileException $e) {
+                $errorMessage = $this->mailErrorInfo;
                 $this->save($errorMessage);
                 if (DEVELOPMENT) {
                     $_SESSION['flash'][] = "Mail error: $errorMessage";                
                 }
-            } else {
-                $this->save('Success');
-                $_SESSION['flash'][] = 'Mail odeslán';
-            }
+            }              
         }
         
         // PRG
         header('Location: '.BASE_PATH.'page/kariera');
         exit;
+    }
+    
+    /**
+     * 
+     * @param array $fromArray
+     * @param array $toArray
+     * @param string $subject
+     * @param string $body
+     * @throws PhpMaileException PhpMailer vyhazuje vyjímku PHPMailer\PHPMailer\Exception
+     */
+    private function send(array $fromArray, array $toArray, string $subject, string $body) {
+        //Create an instance; passing `true` enables exceptions
+        $mail = new PHPMailer(true);
+
+        //Server settings
+        $mail->SMTPDebug = SMTP::DEBUG_OFF; //DEBUG_SERVER;   // debug dělá přímo echo v kódu maileru     //Enable verbose debug output
+        $mail->isSMTP();                                            //Send using SMTP
+        $mail->Host       = Configuration::MAIL_HOST;               //Set the SMTP server to send through
+        $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+        $mail->Username   = Configuration::MAIL_USERNAME;                     //SMTP username
+        $mail->Password   = Configuration::MAIL_PASSWORD;                               //SMTP password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+        $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+        $mail->CharSet = PHPMailer::CHARSET_UTF8;
+        $mail->Encoding = PHPMailer::ENCODING_8BIT;  
+
+        //Recipients
+        $mail->setFrom($fromArray[0], mb_convert_encoding($fromArray[1], "UTF-8", "auto"));
+        $mail->addAddress($toArray[0], mb_convert_encoding($toArray[1], "UTF-8", "auto"));  //Name is optional
+//        $mail->addReplyTo('info@example.com', 'Information');
+//        $mail->addCC('cc@example.com');
+//        $mail->addBCC('bcc@example.com');
+
+        //Attachments
+//        $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
+//        $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+
+        //Content
+        $mail->isHTML(true);                                  //Set email format to HTML
+        $mail->Subject = mb_convert_encoding($subject, "UTF-8", "auto");//'=?utf-8?B?'.base64_encode($subject).'?=';
+        $mail->Body    = $body;
+        $mail->AltBody = '';//This is the body in plain text for non-HTML mail clients';
+
+        $mail->send();
     }
     
     private function save($message) {
