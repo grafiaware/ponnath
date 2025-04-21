@@ -31,7 +31,12 @@ $router->addRoute('POST', '/form/:name', function ($name) {
     $ctrl = new Form();
     return $ctrl->form($name);
 });
- // session
+$router->addRoute('POST', '/consent/log', function ($name) {
+    $ctrl = new Form();
+    return $ctrl->form($name);
+});
+
+// session
 session_start();  // jen pro flash
 
 // run
