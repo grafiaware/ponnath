@@ -15,7 +15,7 @@
         <main class="kariera">
             <div class="ui grid stackable">
                 <div class="sixteen wide column">
-                    <h1 class="ui primary header">Kariéra</h1>
+                    <h1 class="ui primary header">Kariéra<?= DEVELOPMENT ? ' - DEVELOPMENT VERSION' : '';?></h1>
                     <p>Hledáme nadšené kolegy, kteří mají rádi svou práci a chtějí se podílet na výrobě produktů, za které se můžeme s hrdostí postavit.</p>
                 </div>
                 <div class="sixteen wide column">

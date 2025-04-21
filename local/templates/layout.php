@@ -25,9 +25,6 @@ $bodyTemplate;
         include "body/flash/flashMessages.php";
         include "body/$bodyTemplate.php";
         include "body/paticka.php";
-        //include "body/paticka/kontakt.php";
-        //include "body/paticka/gdpr.php";
-        //include "body/paticka/vzor.php"; 
         include "body/scripts.php";
         ?>
     </body>
