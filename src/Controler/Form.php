@@ -84,8 +84,8 @@ class Form {
                 ";
 
         $this->save("Subject: $subject");
-        $this->save("From: $fromArray[1].$fromArray[0]");
-        $this->save("To: $toArray[1].$toArray[0]");
+        $this->save("From: $fromArray[1]$fromArray[0]");
+        $this->save("To: $toArray[1]$toArray[0]");
         $this->save($body);
 
         // Mail it
