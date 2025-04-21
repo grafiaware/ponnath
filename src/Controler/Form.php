@@ -40,6 +40,8 @@ class Form {
      * @param type $post
      */
     private function kariera($post) {
+        
+        // form data
         $name = filter_var($post['name'],FILTER_SANITIZE_SPECIAL_CHARS);
         $emailValidated = filter_var($post['email'], FILTER_VALIDATE_EMAIL);
         $email = $emailValidated===false ? "(UPOZORNĚNÍ! Návětšvník webu zadal chybný e-mail) ".$post['email'] : $emailValidated;
@@ -48,14 +50,6 @@ class Form {
         $job = filter_var($post['job'],FILTER_SANITIZE_SPECIAL_CHARS);
         $message = filter_var($post['message'],FILTER_SANITIZE_SPECIAL_CHARS);
         
-        // Multiple recipients
-        if (DEVELOPMENT) {
-            $toArray = ['svoboda@grafia.cz', 'Péťa'];
-        } else {
-            $toArray = ['svoboda@grafia.cz', 'Péťa'];
-//            $toArray = ['hanzikova.jaroslava@ponnath.cz', 'Hanzíková Jaroslava'];
-        }
-        $fromArray = ['web-ponnath-cz@ponnath.cz', 'Kariéra - KONTAKTNÍ FORMULÁŘ'];
         // Subject
         $subject = 'Mail z webu ponnath.cz';
 
@@ -82,7 +76,12 @@ class Form {
             </body>
         </html>
                 ";
-
+        
+        // Addresses
+        $toArray = Configuration::form()['mail_to_hr'];
+        $fromArray = Configuration::form()['mail_from'];
+        
+        // Log
         $this->save("Subject: $subject");
         $this->save("From: $fromArray[1]$fromArray[0]");
         $this->save("To: $toArray[1]$toArray[0]");

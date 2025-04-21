@@ -10,7 +10,7 @@ include 'vendor/autoload.php';
 // konstanty
 define('PROJECT_PATH', str_replace("\\", "/", preg_replace('/^'.preg_quote($_SERVER['DOCUMENT_ROOT'], '/') . '/', '', __DIR__))."/");
 
-const DEVELOPMENT = false; // true;// false;
+const DEVELOPMENT = true;// false;
 const BASE_PATH = "/ponnath/";  // musí začínat a končit / (nebo jen jedno "/")
 
 if (DEVELOPMENT) {

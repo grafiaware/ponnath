@@ -15,4 +15,11 @@ class Configuration {
     const MAIL_USERNAME = 'info@najdisi.cz';
     const MAIL_PASSWORD = 'Kostrčnenihouba';
     
+    public static function form() {
+        return [
+            'mail_to_hr' => DEVELOPMENT ? ['svoboda@grafia.cz', 'Péťa'] : ['hanzikova.jaroslava@ponnath.cz', 'Hanzíková Jaroslava'],
+            'mail_from' => ['web-ponnath-cz@ponnath.cz', 'Kariéra - KONTAKTNÍ FORMULÁŘ'],
+        ];
+    }
+    
 }
