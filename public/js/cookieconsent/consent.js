@@ -271,7 +271,7 @@ function getBaseUrl() {
 
 function logConsent(){
     const base_url = getBaseUrl();   //window.location.origin;
-    const uri = base_url+'/consent/log';
+    const uri = base_url+'consent/log';
     // Retrieve all the fields
     const cookie = CookieConsent.getCookie();
     const preferences = CookieConsent.getUserPreferences();
