@@ -70,7 +70,7 @@
                             </div>
                             <div class="twelve wide column">
                                 <h2 class="ui primary header">CHCETE BÝT SOUČÁSTÍ našeho TÝMU?</h2>
-                                <p><button class="ui primary button">KARIÉRA V PONNATH</button></p>
+                                <p><a href="page/kariera" class="ui primary button">KARIÉRA V PONNATH</a></p>
                             </div>
                         </div>
                     </div>
