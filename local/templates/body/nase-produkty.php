@@ -49,9 +49,25 @@
                         <div class="column">
                             <div class="ui placeholder segment center aligned">
                                 <div class="ui primary header">
+                                    škvarkové pomazánky
+                                </div>
+                                <img class="ui image" src="<?= $layoutImages.'skvarkova_pomazanka_s_jablky.webp'?>" alt="skvarkove pomazanky" height="200"/>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="ui placeholder segment center aligned">
+                                <div class="ui primary header">
                                     vařená výroba
                                 </div>
-                                <img class="ui image" src="<?= $layoutImages.'varena_vyroba.webp'?>" alt="varena vyroba" height="200"/>
+                                <img class="ui image" src="<?= $layoutImages.'sumavsky_sulc_varena_vyroba.webp'?>" alt="varena vyroba" height="200"/>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="ui placeholder segment center aligned">
+                                <div class="ui primary header">
+                                    aspik
+                                </div>
+                                <img class="ui image" src="<?= $layoutImages.'aspik.webp'?>" alt="aspik" height="200"/>
                             </div>
                         </div>
                         <div class="column">
