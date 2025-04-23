@@ -4,6 +4,7 @@ declare(strict_types=1);
 use Router\Router;
 use Controler\Page;
 use Controler\Form;
+use Controler\Consent;
 
 include 'vendor/autoload.php';
 
@@ -30,9 +31,9 @@ $router->addRoute('POST', '/form/:name', function ($name) {
     $ctrl = new Form();
     return $ctrl->form($name);
 });
-$router->addRoute('POST', '/consent/log', function ($name) {
-    $ctrl = new Form();
-    return $ctrl->form($name);
+$router->addRoute('POST', '/consent/log', function () {
+    $ctrl = new Consent();
+    return $ctrl->logConsent();
 });
 
 // session

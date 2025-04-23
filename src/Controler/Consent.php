@@ -1,5 +1,5 @@
 <?php
-namespace Consent\Middleware\ConsentLogger\Controler;
+namespace Controler;
 
 use Pes\Logger\FileLogger;
 
@@ -8,9 +8,17 @@ use Pes\Logger\FileLogger;
  *
  * @author pes2704
  */
-class LogControler extends FrontControlerAbstract {
-    public function logConsent(ServerRequestInterface $request): ResponseInterface {
-        $post = $_POST;
+class Consent {
+    public function logConsent() {
+        // kopie php://input do streamu:
+        /** @var resource $bodyContent */
+        $bodyContent = fopen('php://temp', 'w+');
+        $len = stream_copy_to_stream(fopen('php://input', 'r'), $bodyContent);  // Returns the total count of bytes copied, or false on failure.
+        //  'application/json'
+        $bodyString = stream_get_contents($bodyContent);
+        $bodyParsed = json_decode($bodyString, true);  // return asociative array|null
+        fclose($bodyContent);
+        $post = $bodyParsed;
         
         // form data
         $revision = filter_var($post['revision'],FILTER_SANITIZE_SPECIAL_CHARS);
