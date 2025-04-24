@@ -11,9 +11,10 @@ use Pes\Logger\FileLogger;
 class Consent {
     public function logConsent() {
         // kopie php://input do streamu:
-        /** @var resource $bodyContent */
+        /** @var stream $bodyContent */
         $bodyContent = fopen('php://temp', 'w+');
         $len = stream_copy_to_stream(fopen('php://input', 'r'), $bodyContent);  // Returns the total count of bytes copied, or false on failure.
+        rewind($bodyContent);
         //  'application/json'
         $bodyString = stream_get_contents($bodyContent);
         $bodyParsed = json_decode($bodyString, true);  // return asociative array|null
@@ -21,18 +22,14 @@ class Consent {
         $post = $bodyParsed;
         
         // form data
-        $revision = filter_var($post['revision'],FILTER_SANITIZE_SPECIAL_CHARS);
-        $consentId = filter_var($post['consentId'],FILTER_SANITIZE_SPECIAL_CHARS);
-        $consentTimestamp = filter_var($post['consentTimestamp'],FILTER_SANITIZE_SPECIAL_CHARS);
-        $lastConsentTimestamp = filter_var($post['lastConsentTimestamp'],FILTER_SANITIZE_SPECIAL_CHARS);
-        // kopie php://input do streamu:
-        $bodyContent = fopen('php://temp', 'w+');
-        stream_copy_to_stream(fopen('php://input', 'r'), $bodyContent);
-        rewind($bodyContent);
+        $revision = $bodyParsed['revision'];
+        $consentId = $bodyParsed['consentId'];
+        $consentTimestamp = $bodyParsed['consentTimestamp'];
+        $lastConsentTimestamp = $bodyParsed['lastConsentTimestamp'];
         
         FileLogger::setBaseLogsDirectory(__DIR__.'/../..');
         $consentLogger = FileLogger::getInstance('/_Logs/Consent', 'Consent.log', FileLogger::APPEND_TO_LOG);
-        $consentLogger->info("$revision|$consentTimestamp|$lastConsentTimestamp|$consentId|$bodyContent");
+        $consentLogger->info("$revision|$consentTimestamp|$lastConsentTimestamp|$consentId|$bodyString");
         
         header('Content-Type: application/json');
         return json_encode([]);
