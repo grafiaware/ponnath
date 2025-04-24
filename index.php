@@ -5,6 +5,7 @@ use Router\Router;
 use Controler\Page;
 use Controler\Form;
 use Controler\Consent;
+use Logger\Logger;
 
 include 'vendor/autoload.php';
 
@@ -16,6 +17,9 @@ define('BASE_PATH', '/');  // musí začínat a končit / (nebo jen jedno "/")
 if (DEVELOPMENT) {
     error_reporting(E_ALL);
 }
+
+$logger = new Logger();
+$logger->request();
 
 // router
 $router = new Router();
