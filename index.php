@@ -18,8 +18,8 @@ if (DEVELOPMENT) {
     error_reporting(E_ALL);
 }
 
-//$logger = new Logger();
-//$logger->request();
+$logger = new Logger();
+$logger->request();
 
 // router
 $router = new Router();
