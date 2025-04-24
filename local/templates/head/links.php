@@ -1,5 +1,5 @@
 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
     <link rel="stylesheet" as="style" crossorigin type="text/css" href="<?= $linksSite.'semantic-ui/semantic.min.css'; ?>">
     <link rel="icon" href="<?= $linksSite.'favicon/Ponnath.ico'?>" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="<?= $linksSite.'css/layout.css'?>" />

@@ -4,6 +4,7 @@ declare(strict_types=1);
 use Router\Router;
 use Controler\Page;
 use Controler\Form;
+use Controler\Consent;
 
 include 'vendor/autoload.php';
 
@@ -30,7 +31,12 @@ $router->addRoute('POST', '/form/:name', function ($name) {
     $ctrl = new Form();
     return $ctrl->form($name);
 });
- // session
+$router->addRoute('POST', '/consent/log', function () {
+    $ctrl = new Consent();
+    return $ctrl->logConsent();
+});
+
+// session
 session_start();  // jen pro flash
 
 // run
