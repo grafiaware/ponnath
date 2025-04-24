@@ -12,7 +12,6 @@
                     <div class="column"><a href="page/gdpr">GDPR</a></div>
                     <div class="column"><a href="page/oznamovani-mozneho-protipravniho-jednani">Oznamování protiprávního jednání</a></div>
                     <div class="column"><a href="#"  data-cc="show-preferencesModal">Nastavení souhlasu s cookies</a></div>
-                    <!--<div class="column"><a href="page/vzor">Vzor</a></div>-->
                     <div class="column">
                         <a href="mailto:info@ponnath.cz">
                             <i class="envelope outline link icon"></i>
