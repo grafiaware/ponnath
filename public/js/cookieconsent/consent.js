@@ -262,7 +262,7 @@ CookieConsent.run({
 function getBaseUrl() {
     var pathparts = window.location.pathname.split('/');
     if (window.location.host === 'localhost') {
-        var url = window.location.origin+'/'+pathparts[1].trim('/')+'/'; // http://localhost/myproject/
+        var url = window.location.origin+'/'+pathparts[1].trim('/'); // http://localhost/myproject
     }else{
         var url = window.location.origin;
     }
@@ -271,7 +271,7 @@ function getBaseUrl() {
 
 function logConsent(){
     const base_url = getBaseUrl();   //window.location.origin;
-    const uri = base_url+'consent/log';
+    const uri = base_url+'/consent/log';
     // Retrieve all the fields
     const cookie = CookieConsent.getCookie();
     const preferences = CookieConsent.getUserPreferences();
