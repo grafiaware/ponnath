@@ -10,6 +10,9 @@ use Pes\Logger\FileLogger;
  */
 class Consent {
     public function logConsent() {
+        FileLogger::setBaseLogsDirectory(__DIR__.'/../..');
+        $consentLogger = FileLogger::getInstance('/_Logs/Consent', 'Consent.log', FileLogger::APPEND_TO_LOG);
+        
         // kopie php://input do streamu:
         /** @var stream $bodyContent */
         $bodyContent = fopen('php://temp', 'w+');
@@ -27,8 +30,6 @@ class Consent {
         $consentTimestamp = $bodyParsed['consentTimestamp'];
         $lastConsentTimestamp = $bodyParsed['lastConsentTimestamp'];
         
-        FileLogger::setBaseLogsDirectory(__DIR__.'/../..');
-        $consentLogger = FileLogger::getInstance('/_Logs/Consent', 'Consent.log', FileLogger::APPEND_TO_LOG);
         $consentLogger->info("$revision|$consentTimestamp|$lastConsentTimestamp|$consentId|$bodyString");
         
         header('Content-Type: application/json');
