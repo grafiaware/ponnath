@@ -43,15 +43,31 @@
                                 <div class="ui primary header">
                                     drobné masné výrobky
                                 </div>
-                                <img class="ui image" src="<?= $layoutImages.'drobne_masne_vyrobky.webp'?>" alt="drobne masne vyrobky" height="200"/>
+                                <img class="ui image" src="<?= $layoutImages.'videnske_miniparecky.webp'?>" alt="drobne masne vyrobky" height="200"/>
                             </div>
                         </div>
                         <div class="column">
                             <div class="ui placeholder segment center aligned">
                                 <div class="ui primary header">
-                                    škvarkové pomazánky
+                                    grilovací sortiment
                                 </div>
-                                <img class="ui image" src="<?= $layoutImages.'skvarkova_pomazanka_s_jablky.webp'?>" alt="skvarkove pomazanky" height="200"/>
+                                <img class="ui image" src="<?= $layoutImages.'grilovaci_sortiment.webp'?>" alt="grilovaci sortiment" height="200"/>
+                            </div>
+                        </div>
+                         <div class="column">
+                            <div class="ui placeholder segment center aligned">
+                                <div class="ui primary header">
+                                    krájené výrobky
+                                </div>
+                                <img class="ui image" src="<?= $layoutImages.'zampionovy_salam.webp'?>" alt="krajene výrobky" height="200"/>
+                            </div>
+                        </div>
+                       <div class="column">
+                            <div class="ui placeholder segment center aligned">
+                                <div class="ui primary header">
+                                    šunky a uzená masa
+                                </div>
+                                <img class="ui image" src="<?= $layoutImages.'sunky_uzena_masa.webp'?>" alt="sunky a uzena masa" height="200"/>
                             </div>
                         </div>
                         <div class="column">
@@ -70,28 +86,12 @@
                                 <img class="ui image" src="<?= $layoutImages.'aspik.webp'?>" alt="aspik" height="200"/>
                             </div>
                         </div>
-                        <div class="column">
+                         <div class="column">
                             <div class="ui placeholder segment center aligned">
                                 <div class="ui primary header">
-                                    krájené výrobky
+                                    škvarkové pomazánky
                                 </div>
-                                <img class="ui image" src="<?= $layoutImages.'krajena_vyroba.webp'?>" alt="krajene výrobky" height="200"/>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="ui placeholder segment center aligned">
-                                <div class="ui primary header">
-                                    grilovací sortiment
-                                </div>
-                                <img class="ui image" src="<?= $layoutImages.'grilovaci_sortiment.webp'?>" alt="grilovaci sortiment" height="200"/>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="ui placeholder segment center aligned">
-                                <div class="ui primary header">
-                                    šunky a uzená masa
-                                </div>
-                                <img class="ui image" src="<?= $layoutImages.'sunky_uzena_masa.webp'?>" alt="sunky a uzena masa" height="200"/>
+                                <img class="ui image" src="<?= $layoutImages.'skvarkova_pomazanka_s_jablky.webp'?>" alt="skvarkove pomazanky" height="200"/>
                             </div>
                         </div>
                         <div class="column">
