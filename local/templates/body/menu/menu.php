@@ -44,6 +44,9 @@
             <a href="page/kariera"><i class="chevron right icon"></i>Kariéra</a>
         </li>
         <li>
+            <a href="page/pro-media"><i class="chevron right icon"></i>Pro média</a>
+        </li>
+        <li>
             <a href="page/kontakty"><i class="chevron right icon"></i>Kontakty</a>
         </li>
     </ul>
