@@ -60,7 +60,7 @@
                             <div class="column">
                                 <p><strong>Řídící pracovníci na oddělení narážek</strong></p>
                                 <ul>
-                                    <li>3 nabízená místa</li>
+                                    <li>2 nabízená místa</li>
                                     <li>Minimální stupeň vzdělání: střední odborné (vyučen)</li>
                                 </ul>
                                 <p><strong>Asistent/ka marketingu</strong></p>
