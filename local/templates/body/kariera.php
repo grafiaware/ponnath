@@ -63,10 +63,6 @@
                                     <li>2 nabízená místa</li>
                                     <li>Minimální stupeň vzdělání: střední odborné (vyučen)</li>
                                 </ul>
-                                <p><strong>Asistent/ka marketingu</strong></p>
-                                <ul>
-                                    <li>1 nabízené místo</li>
-                                </ul>
                             </div>
                             <div class="column">
                                 <p><strong>Výrobní pracovníci – narážka, udírny, balení</strong></p>
