@@ -26,8 +26,8 @@
                             <div class="twelve wide column">
                                 <h2 class="ui primary header">Prodej</h2>
                                 <p><i class="user icon"></i> Bohumír Vejvoda</p>
-                                <p><i class="phone icon"></i><a href="tel:+420376524521">+420 376 524 521</a></p>
-                                <p><i class="envelope icon"></i><a href="mailto:odbyt@ponnath.cz">odbyt@ponnath.cz</a></p>
+                                <p><i class="phone icon"></i><a href="tel:+420602496454">+420 602 496 454</a></p>
+                                <p><i class="envelope icon"></i><a href="mailto:vejvoda.bohumir@ponnath.cz">vejvoda.bohumir@ponnath.cz</a></p>
                             </div>
                         </div>
                     </div>
