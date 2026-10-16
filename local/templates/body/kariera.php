@@ -27,13 +27,20 @@
                             <div class="six wide column middle aligned">
                                 <h2 class="ui primary header">chcete být součástí týmu?</h2>
                                 <p>Pojďte pracovat v prostředí, kde se řemeslo snoubí s moderní výrobou!</p>
+                                <p><strong>Co nabízíme:</strong></p>
+                                <ul>
+                                    <li>Jistou práci na HPP</li>
+                                    <li>Včasné vyplácení mezd</li>
+                                    <li>Čisté a moderní pracoviště</li>
+                                    <li>Možnost kariérního růstu</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                     
                 </div>
                 <div class="sixteen wide column">
-                    <h2 class="ui primary header">výhody práce u nás</h2>
+                    <h2 class="ui primary header">Zaměstnanecké benefity</h2>
                     <div class="gray-box">
                         <div class="ui two column grid stackable">
                             <div class="column">
@@ -41,13 +48,14 @@
                                     <li>dovolená nad rámec zákona (22 dní/rok)</li>
                                     <li>příspěvek na dovolenou</li>
                                     <li>příspěvek na životní a penzijní připojištění</li>
+                                    <li>podnikové stravování</li>
                                 </ul>
                             </div>
                             <div class="column">
                                 <ul>
-                                    <li>podnikové stravování</li>
-                                    <li>příspěvek na pohybové aktivity</li>
+                                    <li>příspěvek na sport a masáže</li>
                                     <li>sleva na výrobky</li>
+                                    <li>pravidelné navyšování mzdy podle odpracovaných let</li>
                                 </ul>
                             </div>
                         </div>
@@ -55,20 +63,84 @@
                 </div>
                 <div class="sixteen wide column">
                     <h2 class="ui primary header">volné pracovní pozice</h2>
-                    <div class="gray-box">
-                        <div class="ui two column grid stackable">
-                            <div class="column">
-                                <p><strong>Řídící pracovníci na oddělení narážek</strong></p>
+                    <div class="ui two column grid stackable">
+                        <div class="column">
+                            <div class="ui segment">
+                                <p><strong>Strojník</strong> (na oddělení balení)</p>
+                                <p>Co vás u nás čeká:</p>
                                 <ul>
-                                    <li>2 nabízená místa</li>
-                                    <li>Minimální stupeň vzdělání: střední odborné (vyučen)</li>
+                                    <li>Vedení týmu 25–35 zaměstnanců</li>
+                                    <li>Koordinace výroby a nastavení strojů</li>
+                                    <li>Kompletace objednávek, zástup vedoucího</li>
+                                    <li>Třísměnný a dochlazovaný provoz</li>
+                                    <li>Mzda od 36 000 Kč v závislosti na vzdělání a zkušenostech</li>
+                                </ul>
+                                <p>Co požadujeme:</p>
+                                <ul>
+                                    <li>Zkušenosti z potravinářské výroby</li>
+                                    <li>Schopnost vést zaměstnance</li>
+                                    <li>Zkušenosti s prací na PC</li>
+                                    <li>Zodpovědnost, spolehlivost a pečlivost</li>
                                 </ul>
                             </div>
-                            <div class="column">
-                                <p><strong>Výrobní pracovníci – narážka, udírny, balení</strong></p>
+                        </div>
+                        <div class="column">
+                            <div class="ui segment">
+                                <p><strong>Výrobní pracovníci</strong> (narážka, udírny, balení)</p>
+                                <p>Co vás u nás čeká:</p>
                                 <ul>
-                                    <li>10 nabízených míst</li>
-                                    <li>Minimální stupeň vzdělání: základní + praktická škola</li>
+                                    <li>Výroba, uzení, balení a expedice výrobků</li>
+                                    <li>Různorodá práce ve výrobním provozu</li>
+                                    <li>Dvou nebo třísměnný provoz</li>
+                                    <li>Dochlazováné pracoviště 6 - 13 °C</li>
+                                    <li>Mzda od 33 000 Kč</li>
+                                </ul>
+                                <p>Co požadujeme:</p>
+                                <ul>
+                                    <li>Chuť pracovat</li>
+                                    <li>Zodpovědnost a spolehlivost</li>
+                                    <li>Pečlivost</li>
+                                    <li>Zkušenost z výroby výhodou</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="ui segment">
+                                <p><strong>Elektrikář / údržbář</strong></p>
+                                <p>Co vás u nás čeká:</p>
+                                <ul>
+                                    <li>Údržba a drobné opravy zařízení</li>
+                                    <li>Pravidelná údržba strojů</li>
+                                    <li>Řešení havarijních stavů</li>
+                                    <li>Dvousměnný provoz, ranní od 4:00</li>
+                                    <li>Mzda od 38 000 Kč v závislosti na vzdělání a zkušenostech</li>
+                                </ul>
+                                <p>Co požadujeme:</p>
+                                <ul>
+                                    <li>Odborná způsobilost - vyhláška č. 50</li>
+                                    <li>Řidičský průkaz skupiny B</li>
+                                    <li>Zručnost, pečlivost, spolehlivost</li>
+                                    <li>Zkušenosti výhodou, nikoli nutností</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="ui segment">
+                                <p><strong>Vedoucí směny</strong></p>
+                                <p>Co vás u nás čeká:</p>
+                                <ul>
+                                    <li>Vedení a koordinace zaměstnanců</li>
+                                    <li>Koordinace výroby a nastavení strojů</li>
+                                    <li>Odpovědnost za oddělení, zástup vedoucího</li>
+                                    <li>Směnný a dochlazovaný provoz</li>
+                                    <li>Mzda od 40 000 Kč v závislosti na vzdělání, zkušenostech a jazykových znalostech</li>
+                                </ul>
+                                <p>Co požadujeme:</p>
+                                <ul>
+                                    <li>Zkušenosti z potravinářské výroby</li>
+                                    <li>Schopnost vést zaměstnance</li>
+                                    <li>Zkušenosti s prací na PC</li>
+                                    <li>Zodpovědnost, spolehlivost a pečlivost</li>
                                 </ul>
                             </div>
                         </div>
