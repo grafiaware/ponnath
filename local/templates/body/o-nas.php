@@ -3,10 +3,10 @@
     <div class="ui fluid container">
         <header>
             <picture>
-                      <source media="(max-width: 530px)" srcset="<?= $layoutImages.'talir_klobasy_mobil.webp'?>">
+                      <source media="(max-width: 530px)" srcset="<?= $layoutImages.'svet_zakazniku_mobil.webp'?>">
                       <img 
                             class="ui fluid image" 
-                            src="<?= $layoutImages.'talir_klobasy_2.webp'?>" 
+                            src="<?= $layoutImages.'svet_zakazniku_hlavicka.webp'?>" 
                             alt="klobasky">
             </picture>
         </header>

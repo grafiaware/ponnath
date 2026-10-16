@@ -19,14 +19,49 @@
                     </div>
                 </div>
                 <div class="sixteen wide column">
-                    <h2 class="ui primary header center aligned">Naše zásady</h2>
-                    <picture>
-                      <source media="(max-width: 530px)" srcset="<?= $layoutImages.'nase_hodnoty_mobile.webp'?>">
-                      <img 
-                            class="ui fluid image" 
-                            src="<?= $layoutImages.'nase_hodnoty.webp'?>" 
-                            alt="naše hodnoty">
-                    </picture>
+                    <h2 class="ui primary header">Vítejte v Ponnath family group</h2>
+                    <div class="ui two column grid stackable centered">
+                        <div class="ten wide column">
+                            <div class="text-above-image">
+                                <img src="<?= $layoutImages.'svet_zakazniku_mobil.webp'?>" alt="vyroba" />
+                                <div class="overlay-text">
+                                    <h3 class="ui primary header">O nás</h3>
+                                    <p>Jsme Ponnath ŘEZNIČTÍ MISTŘI – rodinná společnost s více než 325letou tradicí řeznického řemesla.</p>
+                                    <p><a href="page/o-nas">Více informací</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="six wide column">
+                            <div class="text-above-image">
+                                <img src="<?= $layoutImages.'produkty_mobil.webp'?>" alt="kariera" />
+                                <div class="overlay-text">
+                                    <h3 class="ui primary header">Naše produkty</h3>
+                                    <p>S láskou k řemeslu, s respektem k tradicím.</p>
+                                    <p><a href="page/nase-produkty">Více informací</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="six wide column">
+                            <div class="text-above-image">
+                                <img src="<?= $layoutImages.'budova.webp'?>" alt="kontakt" />
+                                <div class="overlay-text">
+                                    <h3 class="ui primary header">Kontakty</h3>
+                                    <p>Máte dotazy? Chcete u nás pracovat? Zavolejte nebo napište!</p>
+                                    <p><a href="page/kontakty">Více informací</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ten wide column">
+                            <div class="text-above-image">
+                                <img src="<?= $layoutImages.'kariera_titulka.webp'?>" alt="kariera" />
+                                <div class="overlay-text">
+                                    <h3 class="ui primary header">Přidejte se k nám</h3>
+                                    <p>Společně rosteme jako společnost: Přihlaste se do rodinné skupiny PONNATH. Těšíme se na Váš životopis.</p>
+                                    <p><a href="page/kariera">Více informací</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="sixteen wide column">
                     <div class="ui basic segment center aligned">
@@ -34,48 +69,14 @@
                     </div>
                 </div>
                 <div class="sixteen wide column">
-                    <div class="ui two column grid stackable centered">
-                        <div class="column">
-                            <div class="text-above-image">
-                                <img src="<?= $layoutImages.'vyroba.webp'?>" alt="vyroba" />
-                                <div class="overlay-text">
-                                    <h3 class="ui primary header">O nás</h3>
-                                    <p>Jsme Ponnath ŘEZNIČTÍ MISTŘI – rodinná společnost s více než 325letou tradicí řeznického řemesla.</p>
-                                    <p><a href="page/o-nas">Tradice v Ponnathu</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="text-above-image">
-                                <img src="<?= $layoutImages.'nase_produkty.webp'?>" alt="kariera" />
-                                <div class="overlay-text">
-                                    <h3 class="ui primary header">Naše produkty</h3>
-                                    <p>S láskou k řemeslu, s respektem k tradicím.</p>
-                                    <p><a href="page/nase-produkty">Co vyrábíme?</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="text-above-image">
-                                <img src="<?= $layoutImages.'kariera.webp'?>" alt="kariera" />
-                                <div class="overlay-text">
-                                    <h3 class="ui primary header">Přidejte se k nám</h3>
-                                    <p>Společně rosteme jako společnost: Přihlaste se do rodinné skupiny PONNATH. Těšíme se na Váš životopis.</p>
-                                    <p><a href="page/kariera">Kariéra v Ponnathu</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="text-above-image">
-                                <img src="<?= $layoutImages.'budova.webp'?>" alt="kontakt" />
-                                <div class="overlay-text">
-                                    <h3 class="ui primary header">Kontakty</h3>
-                                    <p>Máte dotazy? Chcete u nás pracovat? Zavolejte nebo napište!</p>
-                                    <p><a href="page/kontakty">Kontaktujte nás</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <h2 class="ui primary header">Naše zásady</h2>
+                    <picture>
+                      <source media="(max-width: 530px)" srcset="<?= $layoutImages.'nase_hodnoty_mobile.webp'?>">
+                      <img 
+                            class="ui fluid image" 
+                            src="<?= $layoutImages.'nase_hodnoty.webp'?>" 
+                            alt="naše hodnoty">
+                    </picture>
                 </div>
             </div>
         </main>
