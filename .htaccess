@@ -1,6 +1,6 @@
 RewriteEngine On
 
-RewriteBase "/ponnath/"
+RewriteBase "/"
 
 RewriteRule ^public/ - [L]
 
